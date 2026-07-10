@@ -1,0 +1,542 @@
+{
+  "kind": "school-catalog",
+  "records": {
+    "schoolCatalog": [
+      {
+        "academicTags": [
+          "Business",
+          "Kinesiology",
+          "Exercise Science",
+          "Sports Analytics"
+        ],
+        "admissionsUrl": "https://uncw.edu/admissions/",
+        "aliases": [
+          "University of North Carolina Wilmington",
+          "UNCW"
+        ],
+        "conference": "CAA",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-uncw",
+        "lastChecked": "2026-07-02",
+        "location": "Wilmington, NC",
+        "majorStrengthTags": [
+          "Business",
+          "Sports Analytics",
+          "Exercise Science"
+        ],
+        "name": "UNC Wilmington",
+        "officialRosterUrl": "https://uncwsports.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Attacking transition"
+        ],
+        "positionTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "proPathwaySignals": [
+          "Regional pathway watch",
+          "High-level DI schedule"
+        ],
+        "questionnaireUrl": "https://questionnaires.armssoftware.com/uncw/wsoc",
+        "soccerTags": [
+          "regional",
+          "coastal",
+          "possession",
+          "transition"
+        ],
+        "sourceConfidence": "High",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.7
+      },
+      {
+        "academicTags": [
+          "Business",
+          "Exercise Science",
+          "Psychology"
+        ],
+        "admissionsUrl": "https://belmontabbeycollege.edu/admissions/",
+        "aliases": [
+          "Belmont Abbey"
+        ],
+        "conference": "Conference Carolinas",
+        "division": "DII",
+        "genderProgram": "Women",
+        "id": "catalog-belmont-abbey",
+        "lastChecked": "2026-07-02",
+        "location": "Belmont, NC",
+        "majorStrengthTags": [
+          "Business",
+          "Exercise Science",
+          "Psychology"
+        ],
+        "name": "Belmont Abbey College",
+        "officialRosterUrl": "https://abbeyathletics.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Attacking Midfield"
+        ],
+        "positionTags": [
+          "Forward",
+          "Attacking Midfield",
+          "Wing"
+        ],
+        "proPathwaySignals": [
+          "Development pathway signal",
+          "Regional private-college pathway"
+        ],
+        "questionnaireUrl": "https://abbeyathletics.com/sb_output.aspx?form=3",
+        "soccerTags": [
+          "regional",
+          "private",
+          "DII",
+          "development"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.4
+      },
+      {
+        "academicTags": [
+          "Kinesiology",
+          "Exercise Science",
+          "Business"
+        ],
+        "admissionsUrl": "https://www.lr.edu/admission/",
+        "aliases": [
+          "Lenoir Rhyne",
+          "LR"
+        ],
+        "conference": "South Atlantic Conference",
+        "division": "DII",
+        "genderProgram": "Women",
+        "id": "catalog-lenoir-rhyne",
+        "lastChecked": "2026-07-02",
+        "location": "Hickory, NC",
+        "majorStrengthTags": [
+          "Exercise Science",
+          "Business",
+          "Health Sciences"
+        ],
+        "name": "Lenoir-Rhyne University",
+        "officialRosterUrl": "https://lrbears.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Attacking Midfield",
+          "Goalkeeper"
+        ],
+        "positionTags": [
+          "Forward",
+          "Attacking Midfield",
+          "Goalkeeper"
+        ],
+        "proPathwaySignals": [
+          "Development pathway signal",
+          "Regional pathway watch"
+        ],
+        "questionnaireUrl": "https://lrbears.com/sb_output.aspx?form=3",
+        "soccerTags": [
+          "regional",
+          "DII",
+          "camp",
+          "development"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.3
+      },
+      {
+        "academicTags": [
+          "Exercise Science",
+          "Business",
+          "Sports Analytics"
+        ],
+        "admissionsUrl": "https://sc.edu/about/offices_and_divisions/undergraduate_admissions/",
+        "aliases": [
+          "South Carolina",
+          "USC Columbia"
+        ],
+        "conference": "SEC",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-south-carolina",
+        "lastChecked": "2026-07-02",
+        "location": "Columbia, SC",
+        "majorStrengthTags": [
+          "Exercise Science",
+          "Business",
+          "Sports Analytics"
+        ],
+        "name": "University of South Carolina",
+        "officialRosterUrl": "https://gamecocksonline.com/sports/wsoc/roster/",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "positionTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "proPathwaySignals": [
+          "Power conference pathway",
+          "National schedule visibility"
+        ],
+        "questionnaireUrl": "https://questionnaires.armssoftware.com/usc/wsoc",
+        "soccerTags": [
+          "high-major",
+          "SEC",
+          "competitive"
+        ],
+        "sourceConfidence": "High",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.8
+      },
+      {
+        "academicTags": [
+          "Business",
+          "Psychology",
+          "Sports Analytics"
+        ],
+        "admissionsUrl": "https://www.clemson.edu/admissions/",
+        "aliases": [
+          "Clemson"
+        ],
+        "conference": "ACC",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-clemson",
+        "lastChecked": "2026-07-02",
+        "location": "Clemson, SC",
+        "majorStrengthTags": [
+          "Business",
+          "Psychology",
+          "Sports Analytics"
+        ],
+        "name": "Clemson University",
+        "officialRosterUrl": "https://clemsontigers.com/sports/womens-soccer/roster/",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "positionTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "proPathwaySignals": [
+          "ACC pathway signal",
+          "National schedule visibility"
+        ],
+        "questionnaireUrl": "https://questionnaires.armssoftware.com/clemson/wsoc",
+        "soccerTags": [
+          "high-major",
+          "ACC",
+          "regional"
+        ],
+        "sourceConfidence": "High",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.85
+      },
+      {
+        "academicTags": [
+          "Psychology",
+          "Business",
+          "Sports Analytics"
+        ],
+        "admissionsUrl": "https://admissions.duke.edu/",
+        "aliases": [
+          "Duke"
+        ],
+        "conference": "ACC",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-duke",
+        "lastChecked": "2026-07-02",
+        "location": "Durham, NC",
+        "majorStrengthTags": [
+          "Psychology",
+          "Business",
+          "Sports Analytics"
+        ],
+        "name": "Duke University",
+        "officialRosterUrl": "https://goduke.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Attacking Midfield",
+          "Goalkeeper"
+        ],
+        "positionTags": [
+          "Forward",
+          "Attacking Midfield",
+          "Goalkeeper"
+        ],
+        "proPathwaySignals": [
+          "ACC pathway signal",
+          "Elite academic-athletic pathway"
+        ],
+        "questionnaireUrl": "https://questionnaires.armssoftware.com/duke/wsoc",
+        "soccerTags": [
+          "high-academic",
+          "ACC",
+          "elite"
+        ],
+        "sourceConfidence": "High",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.95
+      },
+      {
+        "academicTags": [
+          "Psychology",
+          "Business",
+          "Kinesiology"
+        ],
+        "admissionsUrl": "https://www.davidson.edu/admission-and-financial-aid",
+        "aliases": [
+          "Davidson"
+        ],
+        "conference": "Atlantic 10",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-davidson",
+        "lastChecked": "2026-07-02",
+        "location": "Davidson, NC",
+        "majorStrengthTags": [
+          "Psychology",
+          "Business",
+          "Liberal Arts"
+        ],
+        "name": "Davidson College",
+        "officialRosterUrl": "https://davidsonwildcats.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "positionTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "proPathwaySignals": [
+          "High-academic DI pathway",
+          "Regional pathway watch"
+        ],
+        "questionnaireUrl": "https://davidsonwildcats.com/sb_output.aspx?form=3",
+        "soccerTags": [
+          "high-academic",
+          "regional",
+          "private"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.9
+      },
+      {
+        "academicTags": [
+          "Business",
+          "Exercise Science",
+          "Psychology"
+        ],
+        "admissionsUrl": "https://www.elon.edu/u/admissions/",
+        "aliases": [
+          "Elon"
+        ],
+        "conference": "CAA",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-elon",
+        "lastChecked": "2026-07-02",
+        "location": "Elon, NC",
+        "majorStrengthTags": [
+          "Business",
+          "Exercise Science",
+          "Psychology"
+        ],
+        "name": "Elon University",
+        "officialRosterUrl": "https://elonphoenix.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "positionTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "proPathwaySignals": [
+          "Regional DI pathway",
+          "Private-college pathway"
+        ],
+        "questionnaireUrl": "https://elonphoenix.com/sb_output.aspx?form=3",
+        "soccerTags": [
+          "regional",
+          "private",
+          "CAA"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.7
+      },
+      {
+        "academicTags": [
+          "Business",
+          "Kinesiology",
+          "Exercise Science",
+          "Sports Analytics"
+        ],
+        "admissionsUrl": "https://admissions.ncsu.edu/",
+        "aliases": [
+          "North Carolina State University",
+          "NCSU",
+          "NC State University"
+        ],
+        "conference": "ACC",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-nc-state",
+        "lastChecked": "2026-07-02",
+        "location": "Raleigh, NC",
+        "majorStrengthTags": [
+          "Business",
+          "Exercise Science",
+          "Sports Analytics"
+        ],
+        "name": "NC State",
+        "officialRosterUrl": "https://gopack.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "positionTags": [
+          "Forward",
+          "Wing",
+          "Goalkeeper"
+        ],
+        "proPathwaySignals": [
+          "ACC pathway signal",
+          "Regional pathway watch"
+        ],
+        "questionnaireUrl": "https://questionnaires.armssoftware.com/ncsu/wsoc",
+        "soccerTags": [
+          "high-major",
+          "ACC",
+          "regional",
+          "competitive"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.8
+      },
+      {
+        "academicTags": [
+          "Business",
+          "Exercise Science",
+          "Psychology"
+        ],
+        "admissionsUrl": "https://www.queens.edu/admissions/",
+        "aliases": [
+          "Queens Charlotte",
+          "Queens University"
+        ],
+        "conference": "ASUN",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-queens-charlotte",
+        "lastChecked": "2026-07-02",
+        "location": "Charlotte, NC",
+        "majorStrengthTags": [
+          "Business",
+          "Exercise Science",
+          "Health Sciences"
+        ],
+        "name": "Queens University of Charlotte",
+        "officialRosterUrl": "https://queensathletics.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Attacking Midfield"
+        ],
+        "positionTags": [
+          "Forward",
+          "Wing",
+          "Attacking Midfield"
+        ],
+        "proPathwaySignals": [
+          "Regional DI pathway",
+          "Charlotte market pathway"
+        ],
+        "questionnaireUrl": "https://queensathletics.com/sb_output.aspx?form=3",
+        "soccerTags": [
+          "regional",
+          "private",
+          "DI",
+          "development"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.45
+      }
+    ]
+  },
+  "schemaVersion": 1,
+  "version": "2026.7.10"
+}

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SCOPE Athlete Private Alpha</title>
+    <meta name="description" content="Private alpha review hub for SCOPE Athlete demo workflows and structured feedback." />
+    <link rel="icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-texture" aria-hidden="true"></div>
+
+    <header class="alpha-shell-header">
+      <a class="brand-lockup" href="#top" aria-label="SCOPE Athlete Private Alpha home">
+        <img src="./assets/favicon.png" alt="" />
+        <span>
+          <strong>SCOPE Athlete</strong>
+          <small>Private Alpha</small>
+        </span>
+      </a>
+      <nav aria-label="Alpha review sections">
+        <a href="#start">Start</a>
+        <a href="#workflows">Workflows</a>
+        <a href="#limits">Limits</a>
+        <a href="#feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero image-hero" id="top" aria-labelledby="hero-title">
+        <img class="hero-image" src="./assets/hero-planning.png" alt="Parent and athlete reviewing school-fit planning materials at a table" />
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Private review build / synthetic demo data</p>
+          <h1 id="hero-title">Test the school-fit workflow in 20 minutes.</h1>
+          <p class="hero-lede">
+            Load the demo, try one review path, and tell us where the experience feels clear, useful, or confusing.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#start">Start the review</a>
+            <a class="button secondary" href="#feedback">Submit feedback</a>
+          </div>
+        </div>
+        <dl class="hero-stats" aria-label="Alpha review summary">
+          <div><dt>Review time</dt><dd>20-30 min</dd></div>
+          <div><dt>Data</dt><dd>Synthetic</dd></div>
+          <div><dt>Feedback</dt><dd>Google Form</dd></div>
+        </dl>
+      </section>
+
+      <section class="section-panel start-grid" id="start" aria-labelledby="start-title">
+        <figure class="section-image-card">
+          <img src="./assets/field-evening.png" alt="College soccer field at evening with stadium lights and campus buildings" />
+          <figcaption>Use the same short demo path for every reviewer.</figcaption>
+        </figure>
+        <div class="start-copy">
+          <p class="eyebrow">Start here</p>
+          <h2 id="start-title">Run the same demo path every reviewer sees.</h2>
+          <ol class="step-list compact">
+            <li><span>01</span><strong>Open the alpha build.</strong></li>
+            <li><span>02</span><strong>Settings -> Load demo data.</strong></li>
+            <li><span>03</span><strong>Try one workflow below.</strong></li>
+            <li><span>04</span><strong>Send feedback through the form.</strong></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="workflow-section" id="workflows" aria-labelledby="workflows-title">
+        <div class="workflow-layout">
+          <div class="section-heading">
+            <p class="eyebrow">Demo workflows</p>
+            <h2 id="workflows-title">Pick one path. Do not test everything.</h2>
+            <p>Short, focused reviews are more useful than long tours. Choose the workflow closest to your perspective.</p>
+          </div>
+          <figure class="toolkit-card">
+            <img src="./assets/recruiting-toolkit.png" alt="Soccer school-fit toolkit with field diagram notebook, campus map, and planning cards" />
+          </figure>
+          <div class="workflow-grid">
+            <article class="workflow-card">
+              <span class="card-index">A</span>
+              <h3>Parent onboarding</h3>
+              <p>Profile, readiness, backup confidence.</p>
+              <a class="card-link" href="./workflows/parent-onboarding.html">Open walkthrough</a>
+            </article>
+            <article class="workflow-card featured">
+              <span class="card-index">B</span>
+              <h3>School shortlist review</h3>
+              <p>Pipeline, fit, evidence, gaps.</p>
+              <a class="card-link" href="./workflows/school-shortlist.html">Open walkthrough</a>
+            </article>
+            <article class="workflow-card">
+              <span class="card-index">C</span>
+              <h3>Coach follow-up</h3>
+              <p>Outreach notes, video links, tasks.</p>
+              <a class="card-link" href="./workflows/coach-follow-up.html">Open walkthrough</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="limits-section" id="limits" aria-labelledby="limits-title">
+        <div class="section-heading">
+          <p class="eyebrow">Known limits</p>
+          <h2 id="limits-title">Private alpha boundaries.</h2>
+        </div>
+        <div class="limits-grid">
+          <article>
+            <strong>Private alpha only</strong>
+            <p>Please do not redistribute the installer, screenshots, or claims without checking first.</p>
+          </article>
+          <article>
+            <strong>Synthetic people</strong>
+            <p>Demo players, contacts, outreach notes, and media records are synthetic and not affiliated with schools.</p>
+          </article>
+          <article>
+            <strong>Local-first records</strong>
+            <p>The app stores athlete planning records locally unless a user exports a backup or opens an external link.</p>
+          </article>
+          <article>
+            <strong>Manual triage</strong>
+            <p>Google Form responses are reviewed before bugs, feature ideas, or privacy concerns become GitHub work items.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="feedback-section" id="feedback" aria-labelledby="feedback-title">
+        <div>
+          <p class="eyebrow">Feedback</p>
+          <h2 id="feedback-title">Send structured feedback after your review.</h2>
+          <p>
+            Tell us what you tested, where you got stuck, what broke, and whether this would help a real student-athlete family.
+          </p>
+        </div>
+        <div class="feedback-actions">
+          <a class="button primary" id="feedback-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRYH-lcCNCXhK4kjWCGD9XIHYNmTmkrWpeJSGXx6BVQUF82w/viewform" target="_blank" rel="noopener">Open Google Form</a>
+          <button class="button secondary" id="copy-checklist" type="button">Copy review checklist</button>
+          <p id="copy-status" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="alpha-footer">
+      <p>SCOPE Athlete Private Alpha. Built for trusted review with synthetic demo data.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

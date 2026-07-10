@@ -1,0 +1,33 @@
+{
+  "kind": "rules",
+  "records": {
+    "complianceRules": [
+      {
+        "checkedAt": "2026-06-29",
+        "division": "DI",
+        "id": "rule-1",
+        "sourceUrl": "https://web3.ncaa.org/lsdbi/reports/standardReports",
+        "status": "Current",
+        "title": "DI recruiting communication timing"
+      },
+      {
+        "checkedAt": "2026-06-29",
+        "division": "DII",
+        "id": "rule-2",
+        "sourceUrl": "https://web3.ncaa.org/lsdbi/reports/standardReports",
+        "status": "Current",
+        "title": "DII tryout and visit considerations"
+      },
+      {
+        "checkedAt": "2026-06-29",
+        "division": "NCAA",
+        "id": "rule-3",
+        "sourceUrl": "https://ncaapublications.com/",
+        "status": "Needs Review",
+        "title": "Eligibility Center checkpoints"
+      }
+    ]
+  },
+  "schemaVersion": 1,
+  "version": "2026.7.10"
+}
