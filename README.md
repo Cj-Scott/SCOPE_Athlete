@@ -34,6 +34,10 @@ https://cj-scott.github.io/SCOPE_Athlete/
 
 Installer downloads will be published through this repository's GitHub Releases when the alpha build is ready for distribution.
 
+## Repository Boundary
+
+This repository is public and only contains the public-facing site, data-pack mirror, and distribution materials. Application source and private release tooling are maintained separately in the private backend repository. Codex and contributor repo-boundary instructions are captured in `AGENTS.md`.
+
 ## License
 
 The public-facing materials in this repository are distributed under the included license. The desktop application source code and internal build process are maintained separately.
