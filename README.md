@@ -34,7 +34,7 @@ https://cj-scott.github.io/SCOPE_Athlete/
 
 Private-alpha Windows installer downloads are published through this repository's GitHub Releases:
 
-https://github.com/Cj-Scott/SCOPE_Athlete/releases/tag/alpha-v0.1.1
+https://github.com/Cj-Scott/SCOPE_Athlete/releases/tag/alpha-v0.1.2
 
 The current alpha installers are intentionally unsigned. Windows may show a SmartScreen warning. Only install them if you are part of the trusted private alpha review group, and verify downloads with the published `SHA256SUMS.txt` file when possible.
 
