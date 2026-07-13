@@ -22,6 +22,7 @@
       </a>
       <nav aria-label="Alpha review sections">
         <a href="#start">Start</a>
+        <a href="#downloads">Downloads</a>
         <a href="#workflows">Workflows</a>
         <a href="#limits">Limits</a>
         <a href="#feedback">Feedback</a>
@@ -40,6 +41,7 @@
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#start">Start the review</a>
+            <a class="button secondary" href="#downloads">Download alpha</a>
             <a class="button secondary" href="#feedback">Submit feedback</a>
           </div>
         </div>
@@ -48,6 +50,47 @@
           <div><dt>Data</dt><dd>Synthetic</dd></div>
           <div><dt>Feedback</dt><dd>Google Form</dd></div>
         </dl>
+      </section>
+
+      <section class="download-section" id="downloads" aria-labelledby="downloads-title">
+        <div class="download-copy">
+          <p class="eyebrow">Windows private alpha</p>
+          <h2 id="downloads-title">Download the reviewed alpha build.</h2>
+          <p>
+            This build is for trusted private-alpha reviewers. The installers are intentionally unsigned, so Windows may show a SmartScreen warning during install.
+          </p>
+          <div class="download-warning" role="note" aria-label="Unsigned alpha install notice">
+            <strong>Install only if you are part of the private alpha.</strong>
+            <span>Use the checksum file to confirm the download before running the installer.</span>
+          </div>
+        </div>
+        <div class="download-card-grid" aria-label="Alpha download options">
+          <article class="download-card preferred">
+            <span class="card-index">EXE</span>
+            <h3>Setup installer</h3>
+            <p>Recommended for most Windows reviewers.</p>
+            <a class="button primary" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.0/SCOPE.Athlete_0.1.0_x64-setup.exe">Download EXE</a>
+          </article>
+          <article class="download-card">
+            <span class="card-index">MSI</span>
+            <h3>MSI package</h3>
+            <p>Use this when you specifically prefer Windows Installer format.</p>
+            <a class="button secondary" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.0/SCOPE.Athlete_0.1.0_x64_en-US.msi">Download MSI</a>
+          </article>
+          <article class="download-card">
+            <span class="card-index">SHA</span>
+            <h3>Checksums</h3>
+            <p>Verify downloaded files against the published SHA-256 hashes.</p>
+            <a class="card-link" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.0/SHA256SUMS.txt">Open checksums</a>
+            <a class="card-link" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.0/UNSIGNED-ALPHA-NOTICE.md">Unsigned notice</a>
+          </article>
+        </div>
+        <ol class="install-steps" aria-label="Install and uninstall steps">
+          <li><span>01</span><strong>Download the EXE.</strong><p>Use the setup installer unless you specifically need the MSI.</p></li>
+          <li><span>02</span><strong>Review the Windows warning.</strong><p>Select more details only if you expected this unsigned private-alpha build.</p></li>
+          <li><span>03</span><strong>Load demo data.</strong><p>Open Settings in the app and use synthetic demo data for review.</p></li>
+          <li><span>04</span><strong>Uninstall after review.</strong><p>Use Windows Settings -> Apps -> Installed apps -> SCOPE Athlete -> Uninstall.</p></li>
+        </ol>
       </section>
 
       <section class="section-panel start-grid" id="start" aria-labelledby="start-title">

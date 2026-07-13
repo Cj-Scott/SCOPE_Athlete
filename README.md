@@ -32,7 +32,13 @@ https://cj-scott.github.io/SCOPE_Athlete/
 
 ## Downloads
 
-Installer downloads will be published through this repository's GitHub Releases when the alpha build is ready for distribution.
+Private-alpha Windows installer downloads are published through this repository's GitHub Releases:
+
+https://github.com/Cj-Scott/SCOPE_Athlete/releases/tag/alpha-v0.1.0
+
+The current alpha installers are intentionally unsigned. Windows may show a SmartScreen warning. Only install them if you are part of the trusted private alpha review group, and verify downloads with the published `SHA256SUMS.txt` file when possible.
+
+For review, download the setup EXE, install SCOPE Athlete, load synthetic demo data from Settings, and uninstall afterward through Windows Settings -> Apps -> Installed apps.
 
 ## Repository Boundary
 

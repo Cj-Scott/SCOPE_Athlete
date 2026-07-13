@@ -281,9 +281,11 @@ h3 {
 
 .review-card,
 .section-panel,
+.download-section,
 .section-image-card,
 .toolkit-card,
 .workflow-card,
+.download-card,
 .limits-grid article,
 .feedback-section {
   border: 1px solid var(--line);
@@ -383,8 +385,116 @@ h3 {
 }
 
 .section-panel,
+.download-section,
 .feedback-section {
   padding: clamp(22px, 4vw, 44px);
+}
+
+.download-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(320px, 1.08fr);
+  gap: clamp(20px, 4vw, 42px);
+  align-items: stretch;
+  background:
+    linear-gradient(135deg, rgba(198, 94, 61, 0.09), rgba(255, 253, 247, 0.9)),
+    rgba(255, 253, 247, 0.86);
+}
+
+.download-copy {
+  display: grid;
+  align-content: center;
+}
+
+.download-copy p {
+  max-width: 62ch;
+  color: var(--muted);
+  font-size: 1.04rem;
+  line-height: 1.6;
+}
+
+.download-warning {
+  display: grid;
+  gap: 6px;
+  margin-top: 20px;
+  border-left: 5px solid var(--rust);
+  border-radius: 14px;
+  background: rgba(244, 242, 234, 0.84);
+  padding: 14px 16px;
+}
+
+.download-warning strong {
+  color: #672c1d;
+}
+
+.download-warning span {
+  color: #4d5962;
+  line-height: 1.45;
+}
+
+.download-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.install-steps {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.install-steps li {
+  display: grid;
+  gap: 8px;
+  border: 1px solid rgba(207, 199, 183, 0.82);
+  border-radius: 14px;
+  background: rgba(244, 242, 234, 0.72);
+  padding: 14px;
+}
+
+.install-steps span {
+  color: var(--rust);
+  font-size: 0.72rem;
+  font-weight: 950;
+}
+
+.install-steps p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.download-card {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  min-height: 260px;
+  padding: 18px;
+  box-shadow: none;
+}
+
+.download-card.preferred {
+  background: linear-gradient(145deg, rgba(31, 122, 85, 0.12), rgba(255, 253, 247, 0.92));
+}
+
+.download-card p {
+  margin-bottom: 8px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.download-card .button {
+  align-self: end;
+  justify-content: center;
+  text-align: center;
+}
+
+.download-card .card-link + .card-link {
+  margin-top: 4px;
 }
 
 .start-grid {
@@ -829,6 +939,7 @@ h3 {
   .alpha-shell-header,
   .hero,
   .start-grid,
+  .download-section,
   .workflow-layout,
   .walkthrough-layout,
   .workflow-cta,
@@ -845,6 +956,8 @@ h3 {
   }
 
   .workflow-grid,
+  .download-card-grid,
+  .install-steps,
   .limits-grid {
     grid-template-columns: 1fr;
   }
