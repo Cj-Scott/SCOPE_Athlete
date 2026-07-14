@@ -4,30 +4,294 @@
     "complianceRules": [
       {
         "checkedAt": "2026-06-29",
+        "criteria": {
+          "divisions": [
+            "DI"
+          ],
+          "maxYearsUntilGraduation": 4
+        },
         "division": "DI",
         "id": "rule-1",
+        "milestones": [
+          {
+            "action": "Review whether the player needs an Academic and Athletics Certification account before DI recruiting actions.",
+            "checkedAt": "2026-07-13",
+            "criteria": {
+              "divisions": [
+                "DI"
+              ],
+              "maxYearsUntilGraduation": 4,
+              "minGradeLevel": 10
+            },
+            "detail": "The NCAA notes that DI recruits generally need the Academic and Athletics Certification account for recruiting, official visit, signing, or walk-on steps.",
+            "division": "DI",
+            "id": "di-certification-account",
+            "phase": "certification",
+            "sourceUrl": "https://www.ncaa.org/eligibility-center/recruiting/",
+            "status": "prepare-now",
+            "taskTemplateIds": [
+              "di-contact-review"
+            ],
+            "title": "DI certification account planning"
+          },
+          {
+            "action": "Check the current DI recruiting calendar before coach-facing outreach, camp visits, or visit planning.",
+            "checkedAt": "2026-07-13",
+            "criteria": {
+              "divisions": [
+                "DI"
+              ],
+              "maxYearsUntilGraduation": 4,
+              "minGradeLevel": 10
+            },
+            "detail": "NCAA recruiting rules vary by division, sport, and grade level; DI uses sport-specific recruiting calendars.",
+            "division": "DI",
+            "id": "di-contact-calendar-review",
+            "phase": "recruiting-contact",
+            "sourceUrl": "https://www.ncaa.org/eligibility-center/recruiting/",
+            "status": "verify-rule",
+            "taskTemplateIds": [
+              "di-contact-review"
+            ],
+            "title": "DI contact calendar review"
+          }
+        ],
         "sourceUrl": "https://web3.ncaa.org/lsdbi/reports/standardReports",
         "status": "Current",
+        "taskTemplates": [
+          {
+            "assignedTo": "Parent",
+            "criteria": {
+              "divisions": [
+                "DI"
+              ],
+              "maxYearsUntilGraduation": 4
+            },
+            "dueOffsetDays": 7,
+            "id": "di-contact-review",
+            "nextAction": "Review the current NCAA DI contact rule before coach-facing outreach.",
+            "reasonDetail": "DI schools are in the pipeline, so coach-facing outreach should be checked against current NCAA timing rules.",
+            "reasonLabel": "NCAA rule",
+            "relatedTo": "NCAA DI contact rules",
+            "signals": [
+              "NCAA",
+              "DI",
+              "coach contact"
+            ],
+            "title": "Review DI coach contact timing before outreach",
+            "workstream": "Compliance"
+          }
+        ],
         "title": "DI recruiting communication timing"
       },
       {
         "checkedAt": "2026-06-29",
+        "criteria": {
+          "divisions": [
+            "DII"
+          ],
+          "maxYearsUntilGraduation": 4
+        },
         "division": "DII",
         "id": "rule-2",
+        "milestones": [
+          {
+            "action": "Review whether the player needs an Academic and Athletics Certification account before DII recruiting actions.",
+            "checkedAt": "2026-07-13",
+            "criteria": {
+              "divisions": [
+                "DII"
+              ],
+              "maxYearsUntilGraduation": 4,
+              "minGradeLevel": 10
+            },
+            "detail": "The NCAA notes that DII recruits generally need the Academic and Athletics Certification account for recruiting, official visit, signing, or walk-on steps.",
+            "division": "DII",
+            "id": "dii-certification-account",
+            "phase": "certification",
+            "sourceUrl": "https://www.ncaa.org/eligibility-center/recruiting/",
+            "status": "prepare-now",
+            "taskTemplateIds": [
+              "dii-visit-review"
+            ],
+            "title": "DII certification account planning"
+          },
+          {
+            "action": "Check DII visit, tryout, and contact guidance before scheduling a camp or school visit.",
+            "checkedAt": "2026-07-13",
+            "criteria": {
+              "divisions": [
+                "DII"
+              ],
+              "maxYearsUntilGraduation": 4,
+              "minGradeLevel": 10
+            },
+            "detail": "NCAA recruiting guidance varies by division and sport; DII uses division-specific reminders and rules.",
+            "division": "DII",
+            "id": "dii-visit-reminder-review",
+            "phase": "visit",
+            "sourceUrl": "https://www.ncaa.org/eligibility-center/recruiting/",
+            "status": "verify-rule",
+            "taskTemplateIds": [
+              "dii-visit-review"
+            ],
+            "title": "DII visit and tryout rule review"
+          }
+        ],
         "sourceUrl": "https://web3.ncaa.org/lsdbi/reports/standardReports",
         "status": "Current",
+        "taskTemplates": [
+          {
+            "assignedTo": "Parent",
+            "criteria": {
+              "divisions": [
+                "DII"
+              ],
+              "maxYearsUntilGraduation": 4
+            },
+            "dueOffsetDays": 10,
+            "id": "dii-visit-review",
+            "nextAction": "Review DII visit and tryout rules before scheduling a camp or visit.",
+            "reasonDetail": "DII schools are in the pipeline, so visits and tryouts should be checked against current NCAA guidance.",
+            "reasonLabel": "NCAA rule",
+            "relatedTo": "NCAA DII visit rules",
+            "signals": [
+              "NCAA",
+              "DII",
+              "visit"
+            ],
+            "title": "Review DII visit and tryout rules before scheduling",
+            "workstream": "Compliance"
+          }
+        ],
         "title": "DII tryout and visit considerations"
       },
       {
         "checkedAt": "2026-06-29",
+        "criteria": {
+          "divisions": [
+            "NCAA"
+          ],
+          "maxYearsUntilGraduation": 4
+        },
         "division": "NCAA",
         "id": "rule-3",
+        "milestones": [
+          {
+            "action": "Create or review a Profile Page account while exploring divisions or planning a DIII path.",
+            "checkedAt": "2026-07-13",
+            "criteria": {
+              "divisions": [
+                "NCAA"
+              ],
+              "maxYearsUntilGraduation": 4,
+              "minGradeLevel": 9
+            },
+            "detail": "The NCAA Eligibility Center lists the Profile Page account for students exploring options, DIII prospective student-athletes, younger students, or students unsure of division.",
+            "division": "NCAA",
+            "id": "eligibility-profile-page",
+            "phase": "profile",
+            "sourceUrl": "https://www.ncaa.org/eligibility-center/register/",
+            "status": "available-now",
+            "taskTemplateIds": [
+              "eligibility-center-check"
+            ],
+            "title": "Eligibility Center Profile Page"
+          },
+          {
+            "action": "Keep high-school course history organized so core-course and eligibility review is easier later.",
+            "checkedAt": "2026-07-13",
+            "criteria": {
+              "divisions": [
+                "NCAA"
+              ],
+              "maxYearsUntilGraduation": 4,
+              "minGradeLevel": 9
+            },
+            "detail": "The NCAA Eligibility Center registration flow asks for education history beginning with year nine.",
+            "division": "NCAA",
+            "id": "eligibility-education-history",
+            "phase": "profile",
+            "sourceUrl": "https://www.ncaa.org/eligibility-center/register/",
+            "status": "prepare-now",
+            "taskTemplateIds": [
+              "eligibility-center-check"
+            ],
+            "title": "Education history from year nine"
+          },
+          {
+            "action": "Shift more coach-facing follow-up to the student athlete while family supports logistics.",
+            "checkedAt": "2026-07-13",
+            "criteria": {
+              "divisions": [
+                "NCAA"
+              ],
+              "maxYearsUntilGraduation": 2,
+              "minGradeLevel": 11
+            },
+            "detail": "NCAA recruiting guidance says parents and guardians often lead in grades 9-10, while students should lead more in grades 11-12.",
+            "division": "NCAA",
+            "id": "student-led-contact-transition",
+            "phase": "recruiting-contact",
+            "sourceUrl": "https://www.ncaa.org/eligibility-center/recruiting/",
+            "status": "prepare-now",
+            "taskTemplateIds": [
+              "eligibility-center-check"
+            ],
+            "title": "Student-led outreach transition"
+          },
+          {
+            "action": "Use the Eligibility Center Profile Page as the DIII planning record while school-specific admission and roster fit are reviewed.",
+            "checkedAt": "2026-07-13",
+            "criteria": {
+              "divisions": [
+                "DIII"
+              ],
+              "maxYearsUntilGraduation": 4,
+              "minGradeLevel": 9
+            },
+            "detail": "The NCAA lists domestic DIII prospective student-athletes as a Profile Page account use case.",
+            "division": "DIII",
+            "id": "diii-profile-path",
+            "phase": "division-review",
+            "sourceUrl": "https://www.ncaa.org/eligibility-center/register/",
+            "status": "available-now",
+            "taskTemplateIds": [
+              "eligibility-center-check"
+            ],
+            "title": "DIII profile-page path"
+          }
+        ],
         "sourceUrl": "https://ncaapublications.com/",
         "status": "Needs Review",
+        "taskTemplates": [
+          {
+            "assignedTo": "Parent",
+            "criteria": {
+              "divisions": [
+                "NCAA"
+              ],
+              "maxYearsUntilGraduation": 4
+            },
+            "dueOffsetDays": 14,
+            "id": "eligibility-center-check",
+            "nextAction": "Review Eligibility Center account status, core courses, and graduation timeline.",
+            "reasonDetail": "NCAA-pathway schools are in the pipeline, so eligibility milestones should be tracked early.",
+            "reasonLabel": "Eligibility",
+            "relatedTo": "NCAA Eligibility Center",
+            "signals": [
+              "NCAA",
+              "eligibility",
+              "core courses"
+            ],
+            "title": "Check NCAA Eligibility Center account and core-course status",
+            "workstream": "Compliance"
+          }
+        ],
         "title": "Eligibility Center checkpoints"
       }
     ]
   },
   "schemaVersion": 1,
-  "version": "2026.7.10"
+  "version": "2026.7.14"
 }
