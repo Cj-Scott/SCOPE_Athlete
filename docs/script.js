@@ -4,7 +4,8 @@ const copyStatus = document.querySelector("#copy-status, [data-copy-status]");
 
 const defaultChecklist = [
   "Reviewer context:",
-  "Workflow tested: Parent onboarding / School shortlist / Coach outreach",
+  "Scenario tested: Parent onboarding / School shortlist / Coach follow-up",
+  "Did the scenario journey make sense:",
   "What was clear:",
   "What was confusing:",
   "What broke:",
@@ -15,15 +16,18 @@ const defaultChecklist = [
 
 const workflowChecklists = {
   "parent-onboarding": [
-    "Workflow tested: Parent onboarding",
+    "Scenario tested: Parent onboarding",
+    "Could you understand the first-session journey:",
     "Was the demo data boundary clear:",
     "Could you understand the player profile:",
     "Did the overview feel like a useful summary:",
     "Were settings, backup, and privacy controls easy to find:",
+    "Where did the experience first feel confusing or unsafe:",
     "What should be simplified before alpha:"
   ].join("\n"),
   "school-shortlist": [
-    "Workflow tested: School shortlist review",
+    "Scenario tested: School shortlist review",
+    "Did the recommendation-to-evidence-to-action journey make sense:",
     "Did the recommendation logic feel understandable:",
     "Were fit, evidence, and source confidence clear:",
     "Could you identify missing data or next actions:",
@@ -31,7 +35,8 @@ const workflowChecklists = {
     "What would make school review more trustworthy:"
   ].join("\n"),
   "coach-follow-up": [
-    "Workflow tested: Coach follow-up",
+    "Scenario tested: Coach follow-up",
+    "Did the contact-to-video-to-task journey make sense:",
     "Was Outreach clearly a notes/contact tracker:",
     "Did video link status make sense:",
     "Could you connect outreach, video, and tasks:",

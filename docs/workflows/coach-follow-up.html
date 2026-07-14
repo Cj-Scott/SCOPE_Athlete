@@ -34,13 +34,36 @@
         <div class="workflow-hero-copy">
           <p class="eyebrow">Workflow C / Coach follow-up</p>
           <h1 id="workflow-title">Can outreach, video, and tasks feel connected?</h1>
-          <p class="hero-lede">Use this script to test whether a reviewer can understand contact notes and follow-up work without storing email bodies.</p>
+          <p class="hero-lede">Use this script to test whether a family can trace a coach interaction into video proof, task ownership, and a next follow-up.</p>
           <div class="workflow-badges" aria-label="Review scope">
             <span>20 minutes</span>
+            <span>Scenario: active follow-up</span>
             <span>Outreach + Video + Tasks</span>
-            <span>Notes, links, next actions</span>
           </div>
         </div>
+      </section>
+
+      <section class="journey-grid" aria-labelledby="journey-title">
+        <article class="journey-card">
+          <p class="eyebrow">Scenario</p>
+          <h2 id="journey-title">A family needs to follow up with a coach.</h2>
+          <p>They have a school-linked contact note, a public video reference, and a next action that should be easy to find without storing private email content.</p>
+        </article>
+        <article class="journey-card">
+          <p class="eyebrow">Experience goal</p>
+          <h3>The app should connect notes, proof, and action.</h3>
+          <p>Reviewers should understand who the contact is, what happened, which video or task matters, and what the family should do next.</p>
+        </article>
+        <article class="journey-card">
+          <p class="eyebrow">Feature touchpoints</p>
+          <ul>
+            <li>Outreach list and contact detail</li>
+            <li>School-linked notes</li>
+            <li>Video link status and public accessibility</li>
+            <li>Task status, owner, and due date</li>
+            <li>Pipeline context for the related school</li>
+          </ul>
+        </article>
       </section>
 
       <section class="walkthrough-layout" id="steps" aria-labelledby="steps-title">
@@ -48,12 +71,13 @@
           <p class="eyebrow">Walkthrough script</p>
           <h2 id="steps-title">Trace one follow-up thread.</h2>
           <ol class="walkthrough-steps">
-            <li><span>01</span><div><strong>Load demo data.</strong><p>Use the same synthetic player and school records as other reviewers.</p></div></li>
+            <li><span>01</span><div><strong>Load demo data and choose an active outreach player.</strong><p>Use the same synthetic player and school records as other reviewers.</p></div></li>
             <li><span>02</span><div><strong>Open Outreach.</strong><p>Confirm it reads as contact notes tied to a school, not as email storage.</p></div></li>
-            <li><span>03</span><div><strong>Review one contact.</strong><p>Check contact name, contact title, date, notes, and the school relationship.</p></div></li>
-            <li><span>04</span><div><strong>Open Video.</strong><p>Review one video link and decide whether public accessibility status is understandable.</p></div></li>
-            <li><span>05</span><div><strong>Open Tasks.</strong><p>Find the follow-up task connected to outreach or video context.</p></div></li>
-            <li><span>06</span><div><strong>Create or inspect a next action.</strong><p>Judge whether status labels, due dates, and task ownership are clear enough.</p></div></li>
+            <li><span>03</span><div><strong>Review one contact thread.</strong><p>Check contact name, contact title, date, response status, notes, next follow-up, and school relationship.</p></div></li>
+            <li><span>04</span><div><strong>Open the related school or pipeline context.</strong><p>Decide whether the school status and interest level explain why this follow-up matters.</p></div></li>
+            <li><span>05</span><div><strong>Open Video.</strong><p>Review one video link and decide whether public accessibility status is understandable.</p></div></li>
+            <li><span>06</span><div><strong>Open Tasks.</strong><p>Find the follow-up task connected to outreach or video context.</p></div></li>
+            <li><span>07</span><div><strong>Create or inspect a next action.</strong><p>Judge whether status labels, due dates, task ownership, and task source are clear enough.</p></div></li>
           </ol>
         </div>
 
@@ -68,6 +92,7 @@
               <li><strong>Outreach meaning</strong><p>Is the section clearly a notes tracker?</p></li>
               <li><strong>Video status</strong><p>Can you tell whether a link is accessible?</p></li>
               <li><strong>Next action</strong><p>Is the follow-up task obvious?</p></li>
+              <li><strong>Story continuity</strong><p>Can you explain the follow-up thread after leaving the app?</p></li>
             </ul>
           </div>
         </aside>
@@ -80,6 +105,7 @@
           <li><strong>Was Outreach named and shaped correctly?</strong><p>Note whether contact title, contact name, date, school, and notes were enough.</p></li>
           <li><strong>Was video validation clear?</strong><p>Call out any link status, source, or warning that felt confusing.</p></li>
           <li><strong>Did tasks connect to the follow-up story?</strong><p>Describe whether the task made sense after reviewing outreach and video.</p></li>
+          <li><strong>Did the full scenario hold together?</strong><p>Call out any point where school, contact, video, and task context felt disconnected.</p></li>
           <li><strong>What redundant button or label got in the way?</strong><p>Identify any action that felt unlikely to be used during follow-up.</p></li>
         </ul>
       </section>
