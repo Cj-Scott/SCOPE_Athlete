@@ -10,6 +10,27 @@ Public update channel:
 https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/recruiting-os-data-manifest.v1.json
 ```
 
+## [2026.7.14.8] - 2026-07-14
+
+### Published
+- Re-published the alpha data-pack mirror after app release `0.1.8` accidentally generated lower `2026.7.14` pack versions over the existing `2026.7.14.1` public packs.
+- Restored monotonic data-pack versioning so already-updated alpha clients can detect and apply the current catalog, rules, and evidence packs.
+- Manifest schema version: `1`.
+- Minimum compatible app version: `0.1.0`.
+- Latest app version reported by manifest: `0.1.8`.
+
+### Packs
+- `school-catalog` version `2026.7.14.8`
+  - Records: `13` schools.
+- `rules` version `2026.7.14.8`
+  - Records: `3` compliance rules, `3` task templates, `8` milestones.
+- `evidence-links` version `2026.7.14.8`
+  - Records: `0` evidence links.
+
+### Notes
+- This update is data-only; it does not install a new app binary.
+- Existing installed app versions that already applied `2026.7.14.1` should now see this as a newer data-pack update.
+
 ## [2026.7.14.1] - 2026-07-14
 
 ### Published
