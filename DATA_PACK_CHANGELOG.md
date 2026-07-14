@@ -1,4 +1,4 @@
-# SCOPE Athlete Data-Pack Change Log
+﻿# SCOPE Athlete Data-Pack Change Log
 
 This file tracks public data-pack versions for the SCOPE Athlete alpha update channel.
 
@@ -18,7 +18,7 @@ https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/recruiting-os-data-ma
 - Added rules-bound task-template counts to the public manifest record counts.
 - Manifest schema version: `1`.
 - Minimum compatible app version: `0.1.0`.
-- Latest app version reported by manifest: `0.1.2`.
+- Latest app version reported by manifest: `0.1.6`.
 
 ### Packs
 - `school-catalog` version `2026.7.14`
@@ -42,7 +42,7 @@ https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/recruiting-os-data-ma
 - Published through the public GitHub Pages data-pack mirror.
 - Manifest schema version: `1`.
 - Minimum compatible app version: `0.1.0`.
-- Latest app version reported by manifest: `0.1.2`.
+- Latest app version reported by manifest: `0.1.6`.
 
 ### Packs
 - `school-catalog` version `2026.7.10`
@@ -68,3 +68,4 @@ https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/recruiting-os-data-ma
 ### Notes
 - This baseline is not a public downloadable data-pack release.
 - It remains listed here so alpha testers and release notes can distinguish built-in data from public data-pack updates.
+
