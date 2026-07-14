@@ -1,0 +1,10 @@
+{
+  "name": "scope-athlete-public",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "verify:alpha-release": "node scripts/verify-public-alpha-release.mjs",
+    "verify:alpha-release:live": "node scripts/verify-public-alpha-release.mjs --github --live"
+  }
+}

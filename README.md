@@ -40,6 +40,17 @@ The current alpha installers are intentionally unsigned. Windows may show a Smar
 
 For review, download the setup EXE, install SCOPE Athlete, load synthetic demo data from Settings, and uninstall afterward through Windows Settings -> Apps -> Installed apps.
 
+## Release Verification
+
+Before telling reviewers a new alpha download is ready, verify that the public site, updater manifest, data-pack manifest, and GitHub Release assets all point at the same version:
+
+```powershell
+npm run verify:alpha-release -- 0.1.6
+npm run verify:alpha-release:live -- 0.1.6
+```
+
+Run the live check only after the GitHub Pages deployment for the public repo has completed.
+
 ## Data-Pack Updates
 
 Public data-pack versions for school catalog, rules, and evidence-link updates are tracked in `DATA_PACK_CHANGELOG.md`.
