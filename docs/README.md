@@ -9,3 +9,9 @@ This folder contains the GitHub Pages source for the private alpha review hub.
 3. Enable GitHub Pages for the repository using the `main` branch and `/docs` folder.
 
 The page intentionally keeps feedback outside the SCOPE Athlete desktop app. Use `feedback-triage-playbook.md` to review Google Form responses manually before creating GitHub issues or project cards.
+
+## Data-Pack Versions
+
+Public data-pack version history is tracked in `../DATA_PACK_CHANGELOG.md`.
+
+Application and installer version history is tracked in the private backend/source repository.

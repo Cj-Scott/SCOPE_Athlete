@@ -40,6 +40,12 @@ The current alpha installers are intentionally unsigned. Windows may show a Smar
 
 For review, download the setup EXE, install SCOPE Athlete, load synthetic demo data from Settings, and uninstall afterward through Windows Settings -> Apps -> Installed apps.
 
+## Data-Pack Updates
+
+Public data-pack versions for school catalog, rules, and evidence-link updates are tracked in `DATA_PACK_CHANGELOG.md`.
+
+The desktop application changelog is maintained separately in the private backend/source repository.
+
 ## Repository Boundary
 
 This repository is public and only contains the public-facing site, data-pack mirror, and distribution materials. Application source and private release tooling are maintained separately in the private backend repository. Codex and contributor repo-boundary instructions are captured in `AGENTS.md`.
