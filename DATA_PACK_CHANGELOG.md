@@ -18,7 +18,7 @@ https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/recruiting-os-data-ma
 - Added catalog logo metadata for the demo-backed schools so alpha clients can test school-logo updates through the data-pack channel.
 - Manifest schema version: `1`.
 - Minimum compatible app version: `0.1.0`.
-- Latest app version reported by manifest: `0.1.6`.
+- Latest app version reported by manifest: `0.1.7`.
 
 ### Packs
 - `school-catalog` version `2026.7.14.1`
@@ -34,6 +34,7 @@ https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/recruiting-os-data-ma
 ### Notes
 - Existing installed app version `0.1.6` should detect this as newer than `2026.7.14`.
 - This update is data-only; it does not install a new app binary.
+- Manifest signature was refreshed for app release `0.1.7`; pack versions and pack checksums did not change.
 
 ## [2026.7.14] - 2026-07-14
 
