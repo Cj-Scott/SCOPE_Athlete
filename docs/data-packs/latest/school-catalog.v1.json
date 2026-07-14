@@ -20,6 +20,13 @@
         "id": "catalog-uncw",
         "lastChecked": "2026-07-02",
         "location": "Wilmington, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/5/59/Uncwlogo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/5/59/Uncwlogo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/5/59/Uncwlogo.svg"
+        },
         "majorStrengthTags": [
           "Business",
           "Sports Analytics",
@@ -73,6 +80,13 @@
         "id": "catalog-belmont-abbey",
         "lastChecked": "2026-07-02",
         "location": "Belmont, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/0/05/Belmont_abbey_athletics_mark.png",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/0/05/Belmont_abbey_athletics_mark.png",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/0/05/Belmont_abbey_athletics_mark.png"
+        },
         "majorStrengthTags": [
           "Business",
           "Exercise Science",
@@ -127,6 +141,13 @@
         "id": "catalog-lenoir-rhyne",
         "lastChecked": "2026-07-02",
         "location": "Hickory, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lenoir-rhyne_logo_from_NCAA.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lenoir-rhyne_logo_from_NCAA.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lenoir-rhyne_logo_from_NCAA.svg"
+        },
         "majorStrengthTags": [
           "Exercise Science",
           "Business",
@@ -181,6 +202,13 @@
         "id": "catalog-south-carolina",
         "lastChecked": "2026-07-02",
         "location": "Columbia, SC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/9/94/South_Carolina_Gamecocks_logo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/9/94/South_Carolina_Gamecocks_logo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/9/94/South_Carolina_Gamecocks_logo.svg"
+        },
         "majorStrengthTags": [
           "Exercise Science",
           "Business",
@@ -233,6 +261,13 @@
         "id": "catalog-clemson",
         "lastChecked": "2026-07-02",
         "location": "Clemson, SC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/7/72/Clemson_Tigers_logo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/7/72/Clemson_Tigers_logo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/7/72/Clemson_Tigers_logo.svg"
+        },
         "majorStrengthTags": [
           "Business",
           "Psychology",
@@ -285,6 +320,13 @@
         "id": "catalog-duke",
         "lastChecked": "2026-07-02",
         "location": "Durham, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Duke_Athletics_logo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Duke_Athletics_logo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Duke_Athletics_logo.svg"
+        },
         "majorStrengthTags": [
           "Psychology",
           "Business",
@@ -337,6 +379,13 @@
         "id": "catalog-davidson",
         "lastChecked": "2026-07-02",
         "location": "Davidson, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/3/36/Davidson_Wildcats_logo.png",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/3/36/Davidson_Wildcats_logo.png",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/3/36/Davidson_Wildcats_logo.png"
+        },
         "majorStrengthTags": [
           "Psychology",
           "Business",
@@ -389,6 +438,13 @@
         "id": "catalog-elon",
         "lastChecked": "2026-07-02",
         "location": "Elon, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/en/3/3c/Elon_Phoenix_logo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/en/3/3c/Elon_Phoenix_logo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/en/3/3c/Elon_Phoenix_logo.svg"
+        },
         "majorStrengthTags": [
           "Business",
           "Exercise Science",
@@ -428,6 +484,68 @@
       {
         "academicTags": [
           "Business",
+          "Exercise Science",
+          "Psychology",
+          "Education"
+        ],
+        "admissionsUrl": "https://www.greensboro.edu/admissions/",
+        "aliases": [
+          "Greensboro",
+          "Greensboro Pride"
+        ],
+        "conference": "USA South",
+        "division": "DIII",
+        "genderProgram": "Women",
+        "id": "catalog-greensboro",
+        "lastChecked": "2026-07-14",
+        "location": "Greensboro, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Greensboro_pride_athletics_logo.png",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Greensboro_pride_athletics_logo.png",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Greensboro_pride_athletics_logo.png"
+        },
+        "majorStrengthTags": [
+          "Education",
+          "Business",
+          "Health Sciences"
+        ],
+        "name": "Greensboro College",
+        "officialRosterUrl": "https://greensborocollegesports.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Center Back",
+          "Defensive shape",
+          "Development minutes"
+        ],
+        "positionTags": [
+          "Center Back",
+          "Defender",
+          "Midfielder"
+        ],
+        "proPathwaySignals": [
+          "DIII academic-athletic fit",
+          "Regional development pathway"
+        ],
+        "questionnaireUrl": "https://greensborocollegesports.com/sb_output.aspx?form=3",
+        "soccerTags": [
+          "regional",
+          "DIII",
+          "private",
+          "development"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.2
+      },
+      {
+        "academicTags": [
+          "Business",
           "Kinesiology",
           "Exercise Science",
           "Sports Analytics"
@@ -444,6 +562,13 @@
         "id": "catalog-nc-state",
         "lastChecked": "2026-07-02",
         "location": "Raleigh, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/e/e1/North_Carolina_State_University_Athletic_logo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/e/e1/North_Carolina_State_University_Athletic_logo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/e/e1/North_Carolina_State_University_Athletic_logo.svg"
+        },
         "majorStrengthTags": [
           "Business",
           "Exercise Science",
@@ -485,6 +610,68 @@
         "academicTags": [
           "Business",
           "Exercise Science",
+          "Health Sciences",
+          "Education"
+        ],
+        "admissionsUrl": "https://www.wingate.edu/admissions/",
+        "aliases": [
+          "Wingate",
+          "Wingate Bulldogs"
+        ],
+        "conference": "South Atlantic Conference",
+        "division": "DII",
+        "genderProgram": "Women",
+        "id": "catalog-wingate",
+        "lastChecked": "2026-07-14",
+        "location": "Wingate, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/en/1/11/Wingate_Bulldogs_current_logo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/en/1/11/Wingate_Bulldogs_current_logo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/en/1/11/Wingate_Bulldogs_current_logo.svg"
+        },
+        "majorStrengthTags": [
+          "Health Sciences",
+          "Business",
+          "Education"
+        ],
+        "name": "Wingate University",
+        "officialRosterUrl": "https://wingatebulldogs.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Forward",
+          "Wing",
+          "Senior-year readiness"
+        ],
+        "positionTags": [
+          "Forward",
+          "Wing",
+          "Center Back"
+        ],
+        "proPathwaySignals": [
+          "Regional DII pathway",
+          "Senior application pathway"
+        ],
+        "questionnaireUrl": "https://wingatebulldogs.com/sb_output.aspx?form=3",
+        "soccerTags": [
+          "regional",
+          "DII",
+          "SAC",
+          "competitive"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.35
+      },
+      {
+        "academicTags": [
+          "Business",
+          "Exercise Science",
           "Psychology"
         ],
         "admissionsUrl": "https://www.queens.edu/admissions/",
@@ -498,6 +685,13 @@
         "id": "catalog-queens-charlotte",
         "lastChecked": "2026-07-02",
         "location": "Charlotte, NC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Queens_royals_textlogo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Queens_royals_textlogo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Queens_royals_textlogo.svg"
+        },
         "majorStrengthTags": [
           "Business",
           "Exercise Science",
@@ -534,9 +728,72 @@
           "https://collegescorecard.ed.gov/"
         ],
         "targetGpa": 3.45
+      },
+      {
+        "academicTags": [
+          "Business",
+          "Communications",
+          "Sports Management",
+          "Exercise Science"
+        ],
+        "admissionsUrl": "https://admissions.cofc.edu/",
+        "aliases": [
+          "Charleston",
+          "CofC",
+          "Charleston Cougars"
+        ],
+        "conference": "CAA",
+        "division": "DI",
+        "genderProgram": "Women",
+        "id": "catalog-college-charleston",
+        "lastChecked": "2026-07-14",
+        "location": "Charleston, SC",
+        "logoLastChecked": "2026-07-14",
+        "logoSourceDomain": "upload.wikimedia.org",
+        "logoUrls": {
+          "large": "https://upload.wikimedia.org/wikipedia/commons/0/05/College_of_Charleston_Cougars_logo.svg",
+          "medium": "https://upload.wikimedia.org/wikipedia/commons/0/05/College_of_Charleston_Cougars_logo.svg",
+          "small": "https://upload.wikimedia.org/wikipedia/commons/0/05/College_of_Charleston_Cougars_logo.svg"
+        },
+        "majorStrengthTags": [
+          "Business",
+          "Communications",
+          "Liberal Arts"
+        ],
+        "name": "College of Charleston",
+        "officialRosterUrl": "https://cofcsports.com/sports/womens-soccer/roster",
+        "positionOutcomeTags": [
+          "Outside Back",
+          "Wing",
+          "Coastal DI pathway"
+        ],
+        "positionTags": [
+          "Outside Back",
+          "Wing",
+          "Defender"
+        ],
+        "proPathwaySignals": [
+          "Regional DI pathway",
+          "Coastal market visibility"
+        ],
+        "questionnaireUrl": "https://cofcsports.com/sb_output.aspx?form=3",
+        "soccerTags": [
+          "regional",
+          "coastal",
+          "DI",
+          "CAA"
+        ],
+        "sourceConfidence": "Medium",
+        "sourceUrls": [
+          "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=II&sportCode=WSO",
+          "https://web3.ncaa.org/directory/memberList?type=12&division=III&sportCode=WSO",
+          "https://collegescorecard.ed.gov/"
+        ],
+        "targetGpa": 3.55
       }
     ]
   },
   "schemaVersion": 1,
-  "version": "2026.7.14"
+  "version": "2026.7.14.1"
 }

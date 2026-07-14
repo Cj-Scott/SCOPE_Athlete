@@ -10,6 +10,31 @@ Public update channel:
 https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/recruiting-os-data-manifest.v1.json
 ```
 
+## [2026.7.14.1] - 2026-07-14
+
+### Published
+- Refreshed the alpha school catalog from the richer demo school set.
+- Expanded the school catalog to `13` schools, including Greensboro College, Wingate University, and College of Charleston.
+- Added catalog logo metadata for the demo-backed schools so alpha clients can test school-logo updates through the data-pack channel.
+- Manifest schema version: `1`.
+- Minimum compatible app version: `0.1.0`.
+- Latest app version reported by manifest: `0.1.6`.
+
+### Packs
+- `school-catalog` version `2026.7.14.1`
+  - Records: `13` schools.
+  - SHA-256: `6d67b7564a1b4d3c2d30835085d5ae6f862dc01a520e57b167aae9847b766f6b`.
+- `rules` version `2026.7.14.1`
+  - Records: `3` compliance rules, `3` task templates, `8` milestones.
+  - SHA-256: `24ac5f80ce4522a799f9ecfafc6f3771b2514db47e9ef145a6a6e86b76a807ff`.
+- `evidence-links` version `2026.7.14.1`
+  - Records: `0` evidence links.
+  - SHA-256: `b8bf7c415c9676efe24d7073a71c7e2b4feaec7e4d866c8e29bae848e9894722`.
+
+### Notes
+- Existing installed app version `0.1.6` should detect this as newer than `2026.7.14`.
+- This update is data-only; it does not install a new app binary.
+
 ## [2026.7.14] - 2026-07-14
 
 ### Published
