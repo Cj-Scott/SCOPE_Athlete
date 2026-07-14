@@ -901,7 +901,8 @@ h3 {
 .walkthrough-card,
 .prompt-panel,
 .quick-check-panel,
-.form-blueprint-panel {
+.form-blueprint-panel,
+.click-path-panel {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: rgba(255, 253, 247, 0.86);
@@ -911,7 +912,8 @@ h3 {
 .walkthrough-card,
 .prompt-panel,
 .quick-check-panel,
-.form-blueprint-panel {
+.form-blueprint-panel,
+.click-path-panel {
   padding: clamp(20px, 3vw, 32px);
 }
 
@@ -1035,6 +1037,65 @@ h3 {
 .form-blueprint-panel {
   max-width: 980px;
   margin: 0 auto;
+}
+
+.click-path-panel {
+  background:
+    linear-gradient(135deg, rgba(216, 162, 58, 0.14), rgba(255, 253, 247, 0.92)),
+    rgba(255, 253, 247, 0.88);
+}
+
+.click-path-list {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: click-step;
+}
+
+.click-path-list li {
+  counter-increment: click-step;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 12px;
+  border: 1px solid rgba(207, 199, 183, 0.82);
+  border-radius: 14px;
+  background: rgba(255, 253, 247, 0.76);
+  padding: 13px;
+}
+
+.click-path-list li::before {
+  content: counter(click-step, decimal-leading-zero);
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--rust);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 950;
+}
+
+.click-path-list p,
+.path-note {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.click-path-list span {
+  color: var(--ink);
+  font-weight: 950;
+}
+
+.path-note {
+  margin-top: 16px;
+  border-left: 4px solid var(--rust);
+  border-radius: 12px;
+  background: rgba(244, 242, 234, 0.72);
+  padding: 12px 14px;
 }
 
 @media (max-width: 960px) {

@@ -6,6 +6,7 @@ const defaultChecklist = [
   "Reviewer context:",
   "Scenario tested: Parent onboarding / School shortlist / Coach follow-up",
   "Did the scenario journey make sense:",
+  "Where did you need click-by-click help:",
   "What was clear:",
   "What was confusing:",
   "What broke:",
@@ -18,6 +19,7 @@ const workflowChecklists = {
   "parent-onboarding": [
     "Scenario tested: Parent onboarding",
     "Could you understand the first-session journey:",
+    "Where did you need click-by-click help:",
     "Was the demo data boundary clear:",
     "Could you understand the player profile:",
     "Did the overview feel like a useful summary:",
@@ -28,6 +30,7 @@ const workflowChecklists = {
   "school-shortlist": [
     "Scenario tested: School shortlist review",
     "Did the recommendation-to-evidence-to-action journey make sense:",
+    "Where did you need click-by-click help:",
     "Did the recommendation logic feel understandable:",
     "Were fit, evidence, and source confidence clear:",
     "Could you identify missing data or next actions:",
@@ -37,6 +40,7 @@ const workflowChecklists = {
   "coach-follow-up": [
     "Scenario tested: Coach follow-up",
     "Did the contact-to-video-to-task journey make sense:",
+    "Where did you need click-by-click help:",
     "Was Outreach clearly a notes/contact tracker:",
     "Did video link status make sense:",
     "Could you connect outreach, video, and tasks:",
