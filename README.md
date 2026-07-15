@@ -34,7 +34,7 @@ https://cj-scott.github.io/SCOPE_Athlete/
 
 Private-alpha Windows installer downloads are published through this repository's GitHub Releases:
 
-https://github.com/Cj-Scott/SCOPE_Athlete/releases/tag/alpha-v0.1.9
+https://github.com/Cj-Scott/SCOPE_Athlete/releases/tag/alpha-v0.1.10
 
 The current alpha installers are intentionally unsigned. Windows may show a SmartScreen warning. Only install them if you are part of the trusted private alpha review group, and verify downloads with the published `SHA256SUMS.txt` file when possible.
 
@@ -45,8 +45,8 @@ For review, download the setup EXE, install SCOPE Athlete, load synthetic demo d
 Before telling reviewers a new alpha download is ready, verify that the public site, updater manifest, data-pack manifest, and GitHub Release assets all point at the same version:
 
 ```powershell
-npm run verify:alpha-release -- 0.1.9
-npm run verify:alpha-release:live -- 0.1.9
+npm run verify:alpha-release -- 0.1.10
+npm run verify:alpha-release:live -- 0.1.10
 ```
 
 Run the live check only after the GitHub Pages deployment for the public repo has completed.
