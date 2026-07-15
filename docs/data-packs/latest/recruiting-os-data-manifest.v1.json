@@ -3,49 +3,49 @@
   "dataPacks": [
     {
       "kind": "school-catalog",
-      "publishedAt": "2026-07-14T23:57:41.7276191Z",
+      "publishedAt": "2026-07-15T00:56:20.3958640Z",
       "recordCounts": {
         "schools": 13
       },
       "schemaVersion": 1,
-      "sha256": "038014a6242cb7d14ad34a1890f7997ecee7db41ee253033ee60b11acc1e5c48",
+      "sha256": "cb6f901a2834ce3dfec41b8215ec1b229fccd53e5044a148d09a43fdd4d8072e",
       "sizeBytes": 27479,
       "summary": "Initial signed alpha school catalog pack.",
       "url": "https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/school-catalog.v1.json",
-      "version": "2026.7.14.8"
+      "version": "2026.7.15.9"
     },
     {
       "kind": "rules",
-      "publishedAt": "2026-07-14T23:57:41.7276191Z",
+      "publishedAt": "2026-07-15T00:56:20.3958640Z",
       "recordCounts": {
         "milestones": 8,
         "rules": 3,
         "taskTemplates": 3
       },
       "schemaVersion": 1,
-      "sha256": "a9a18de273898d3dd854dba6beff910a2f2dc0a44ccc9f048e378dd56523f1cb",
+      "sha256": "3d6430ef6a03a0303af7fabce2ce5c6c4a604416889d918724218a75411dd202",
       "sizeBytes": 11227,
       "summary": "Initial signed alpha compliance rules pack.",
       "url": "https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/rules.v1.json",
-      "version": "2026.7.14.8"
+      "version": "2026.7.15.9"
     },
     {
       "kind": "evidence-links",
-      "publishedAt": "2026-07-14T23:57:41.7276191Z",
+      "publishedAt": "2026-07-15T00:56:20.3958640Z",
       "recordCounts": {
         "evidenceLinks": 0
       },
       "schemaVersion": 1,
-      "sha256": "49e1a95412c8b6c4e5d5ff77d4ce028f1dc0c29e6e75cd9f24d5a432e7943d30",
+      "sha256": "98f87e541c8a002f36fb7fd00445d27b0d68eee162cc2e5032fa4c942ba828ba",
       "sizeBytes": 124,
       "summary": "Initial signed alpha evidence-link pack.",
       "url": "https://cj-scott.github.io/SCOPE_Athlete/data-packs/latest/evidence-links.v1.json",
-      "version": "2026.7.14.8"
+      "version": "2026.7.15.9"
     }
   ],
-  "latestAppVersion": "0.1.8",
+  "latestAppVersion": "0.1.9",
   "minimumAppVersion": "0.1.0",
-  "publishedAt": "2026-07-14T23:57:41.7276191Z",
+  "publishedAt": "2026-07-15T00:56:20.3958640Z",
   "releaseNotes": [
     "Initial signed alpha data-pack release for school catalog, compliance rules, and evidence-link metadata.",
     "Data-pack updates remain separate from signed app installer updates."

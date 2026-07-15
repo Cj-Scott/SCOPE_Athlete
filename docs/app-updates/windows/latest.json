@@ -1,11 +1,11 @@
 {
-    "version":  "0.1.8",
-    "notes":  "SCOPE Athlete alpha 0.1.8 application update.",
-    "pub_date":  "2026-07-14T21:19:08.9770766Z",
+    "version":  "0.1.9",
+    "notes":  "SCOPE Athlete alpha 0.1.9 application update.",
+    "pub_date":  "2026-07-15T00:56:12.3824367Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNEtvNXZHYTA1N1FiUnJRc0RKbWx5b3pjbWNwV05OL2xDWUkyQkFKR2R6SGZOUGI0QjBLS0tvT2tOVkZPSVZ0L3gxdVEvN0tvMXRlbzJrQXdJbm1IYkR3NGR1RDRZeWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDYzOTQ2CWZpbGU6U0NPUEUgQXRobGV0ZV8wLjEuOF94NjQtc2V0dXAuZXhlCm1jQzlQc1VERnJlSzVMVDN5WUNQdklFRGt5WnNmb2hjWFJmSXZPZFFDYzZiRSt2cVk0aWpDVmtqUDFlZzJIbXQyeUhjZTFEVm5EMGx3anpNUEpZbEF3PT0K",
-                                             "url":  "https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.8/SCOPE.Athlete_0.1.8_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNEtvNXZHYTA1N2VNcGlsUnROUWVqVVQreFpKbUxlendzMFZ2UDdrbzFURmFWd05rWGZZZk5XaGF6NHl3N0VhWXU0RGk1WTFFeXBxalhnMlZEY0xHRDYyeUxLai96T0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDc2OTY5CWZpbGU6U0NPUEUgQXRobGV0ZV8wLjEuOV94NjQtc2V0dXAuZXhlCm0rZ1gvaldZL3hxdVpBdmhSa3lDRkMzK05qQWM3UDU5UGlEOWVGbU50Vzl4R2lNanZwRHJub2VaK1Z4NnBYODZsN0wxWDc2emVUZ2IvVUFZbkhHc0FnPT0K",
+                                             "url":  "https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.9/SCOPE.Athlete_0.1.9_x64-setup.exe"
                                          }
                   }
 }
