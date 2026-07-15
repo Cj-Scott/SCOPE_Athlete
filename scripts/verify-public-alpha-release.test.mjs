@@ -51,6 +51,28 @@ test("public alpha verifier accepts matching public release references", async (
   }
 });
 
+test("public alpha verifier does not treat two-digit patch versions as stale one-digit patches", async () => {
+  const root = await makeFixture({
+    siteVersion: "0.1.10",
+    updateVersion: "0.1.10",
+    dataPackAppVersion: "0.1.10"
+  });
+
+  try {
+    const result = await verifyPublicAlphaRelease({
+      repoRoot: root,
+      version: "0.1.10",
+      checkGithubRelease: false,
+      checkLiveSite: false
+    });
+
+    assert.equal(result.ok, true);
+    assert.deepEqual(result.errors, []);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
 async function makeFixture({ siteVersion, updateVersion, dataPackAppVersion }) {
   const root = await mkdtemp(path.join(os.tmpdir(), "scope-athlete-public-release-"));
   await mkdir(path.join(root, "docs", "app-updates", "windows"), { recursive: true });

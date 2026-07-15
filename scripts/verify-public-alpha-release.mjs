@@ -106,10 +106,15 @@ async function checkFileExcludes(errors, repoRoot, relativePath, disallowedValue
   const content = await readText(errors, repoRoot, relativePath);
   if (content === undefined) return;
   for (const value of disallowedValues) {
-    if (content.includes(value)) {
+    if (containsReleaseToken(content, value)) {
       errors.push(`${relativePath} contains stale release reference: ${value}`);
     }
   }
+}
+
+function containsReleaseToken(content, value) {
+  const escapedValue = value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`${escapedValue}(?!\\d)`).test(content);
 }
 
 async function checkJson(errors, repoRoot, relativePath, validate) {
@@ -184,7 +189,7 @@ async function checkLivePages(errors, version, expected) {
       }
     }
     for (const value of staleReleasePatterns(version)) {
-      if (html.includes(value)) {
+      if (containsReleaseToken(html, value)) {
         errors.push(`Live GitHub Pages HTML contains stale release reference: ${value}`);
       }
     }
