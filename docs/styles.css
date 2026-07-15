@@ -304,6 +304,7 @@ h3 {
 .review-card,
 .section-panel,
 .download-section,
+.messaging-section,
 .section-image-card,
 .toolkit-card,
 .workflow-card,
@@ -408,6 +409,7 @@ h3 {
 
 .section-panel,
 .download-section,
+.messaging-section,
 .feedback-section {
   padding: clamp(22px, 4vw, 44px);
 }
@@ -457,6 +459,53 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+}
+
+.messaging-section {
+  display: grid;
+  gap: 24px;
+  background:
+    linear-gradient(135deg, rgba(35, 79, 112, 0.1), rgba(255, 253, 247, 0.9)),
+    rgba(255, 253, 247, 0.86);
+}
+
+.messaging-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.messaging-grid article {
+  display: grid;
+  gap: 9px;
+  border: 1px solid rgba(207, 199, 183, 0.86);
+  border-radius: 14px;
+  background: rgba(255, 253, 247, 0.78);
+  padding: 16px;
+}
+
+.messaging-grid span {
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.messaging-grid strong {
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.messaging-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.messaging-link {
+  justify-self: start;
 }
 
 .install-steps {
@@ -1179,6 +1228,7 @@ h3 {
   .download-card-grid,
   .install-steps,
   .limits-grid,
+  .messaging-grid,
   .scenario-rail,
   .journey-grid,
   .profile-guide-grid {
