@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SCOPE Athlete Alpha Readiness Checklist</title>
+    <meta name="description" content="Reviewer-safe go/no-go checklist for SCOPE Athlete private alpha waves." />
+    <link rel="icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="readiness-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-texture" aria-hidden="true"></div>
+
+    <header class="alpha-shell-header">
+      <a class="brand-lockup" href="./index.html" aria-label="SCOPE Athlete demo video center">
+        <img src="./assets/favicon.png" alt="" />
+        <span>
+          <strong>SCOPE Athlete</strong>
+          <small>School Comparison &amp; Opportunity Planning Engine</small>
+        </span>
+      </a>
+      <nav aria-label="Readiness navigation">
+        <a href="./index.html">Videos</a>
+        <a href="./home.html">Alpha Hub</a>
+        <a href="./faq.html">FAQ</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScRYH-lcCNCXhK4kjWCGD9XIHYNmTmkrWpeJSGXx6BVQUF82w/viewform" target="_blank" rel="noopener">Feedback</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="workflow-hero" aria-labelledby="readiness-title">
+        <img src="./assets/recruiting-toolkit.png" alt="Planning cards, a campus map, and soccer field notes arranged for review" />
+        <div class="workflow-hero-copy">
+          <p class="eyebrow">Alpha readiness</p>
+          <h1 id="readiness-title">What gets checked before a reviewer wave.</h1>
+          <p class="hero-lede">
+            This is a simple public-facing version of the go/no-go checklist. It explains the review gate without exposing private release details or backend operations.
+          </p>
+        </div>
+      </section>
+
+      <section class="readiness-section" aria-labelledby="readiness-gate-title">
+        <div class="section-heading">
+          <p class="eyebrow">Go / no-go gate</p>
+          <h2 id="readiness-gate-title">The alpha should only be shared when these checks pass or are explicitly waived.</h2>
+          <p>For the current pause window, installer downloads are paused until August 10, 2026. Videos, walkthroughs, FAQ, and feedback are still available for early review.</p>
+        </div>
+
+        <div class="readiness-grid">
+          <article>
+            <span class="readiness-state pending">Paused</span>
+            <h3>Installer availability</h3>
+            <p>EXE and MSI download buttons are paused until the next review window opens on August 10, 2026.</p>
+          </article>
+          <article>
+            <span class="readiness-state ready">Ready</span>
+            <h3>Reviewer orientation</h3>
+            <p>The landing page, Alpha Hub, workflow pages, FAQ, and demo videos should explain what to review and where to start.</p>
+          </article>
+          <article>
+            <span class="readiness-state ready">Ready</span>
+            <h3>Synthetic demo boundary</h3>
+            <p>Reviewer materials should tell people to use synthetic demo data only and avoid entering private athlete or family information.</p>
+          </article>
+          <article>
+            <span class="readiness-state check">Check</span>
+            <h3>App update check</h3>
+            <p>Before sharing an installer wave, verify the installed app can check for the expected signed app update status.</p>
+          </article>
+          <article>
+            <span class="readiness-state check">Check</span>
+            <h3>Data-pack update check</h3>
+            <p>Verify school catalog, rules, and evidence data-pack checks show clear status and do not break the existing local experience.</p>
+          </article>
+          <article>
+            <span class="readiness-state check">Check</span>
+            <h3>Demo data load/reset</h3>
+            <p>Confirm a clean install can load demo data and reset the alpha experience without requiring real user records.</p>
+          </article>
+          <article>
+            <span class="readiness-state check">Check</span>
+            <h3>Backup and diagnostics</h3>
+            <p>Confirm backup export and diagnostics export show the correct status, location guidance, and active theme styling.</p>
+          </article>
+          <article>
+            <span class="readiness-state check">Check</span>
+            <h3>Clean uninstall</h3>
+            <p>Confirm Windows uninstall removes the app cleanly and that any local data retention behavior is understood before review.</p>
+          </article>
+          <article>
+            <span class="readiness-state ready">Ready</span>
+            <h3>Feedback path</h3>
+            <p>The Google Form link should open, and feedback should be manually reviewed before it becomes product work.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="readiness-run-card" aria-labelledby="run-record-title">
+        <div>
+          <p class="eyebrow">Run record</p>
+          <h2 id="run-record-title">Suggested pre-share note.</h2>
+          <p>Before inviting reviewers, record the date, app version, data-pack versions, reviewer wave, pass/fail result, and any waived items in a private working note.</p>
+        </div>
+        <pre aria-label="Readiness run note template"><code>Date:
+Owner:
+Reviewer wave:
+App version:
+Data-pack versions:
+Installer state:
+Checks passed:
+Waived items:
+Decision: Go / No-go</code></pre>
+      </section>
+
+      <section class="feedback-section" aria-labelledby="readiness-next-title">
+        <div>
+          <p class="eyebrow">Next step</p>
+          <h2 id="readiness-next-title">Ready to review the alpha materials?</h2>
+          <p>Start with the Alpha Hub or FAQ. If downloads are paused, review the videos and submit feedback on the site flow first.</p>
+        </div>
+        <div class="feedback-actions">
+          <a class="button accent" href="./home.html">Open Alpha Hub</a>
+          <a class="button secondary" href="./faq.html">Open FAQ</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="alpha-footer">
+      <p>SCOPE Athlete Private Alpha. Built for trusted review with synthetic demo data.</p>
+      <p>SCOPE means School Comparison &amp; Opportunity Planning Engine.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
