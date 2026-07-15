@@ -20,7 +20,6 @@ test("public site opens on a video landing page and links to the full alpha home
   const index = await readPublicFile("docs/index.html");
   const home = await readPublicFile("docs/home.html");
   const faq = await readPublicFile("docs/faq.html");
-  const readiness = await readPublicFile("docs/readiness.html");
 
   assert.match(index, /Demo video center/i);
   assert.match(index, /<video[\s\S]*?<source src="\.\/assets\/videos\/01-public-site-download-install\.webm\?v=openai-20260715-v2" type="video\/webm"/i);
@@ -28,7 +27,7 @@ test("public site opens on a video landing page and links to the full alpha home
   assert.match(index, /href="\.\/home\.html"/i);
   assert.match(index, /Continue to Alpha Hub/i);
   assert.match(index, /href="\.\/faq\.html"/i);
-  assert.match(index, /href="\.\/readiness\.html"/i);
+  assert.doesNotMatch(index, /href="\.\/readiness\.html"/i);
   assert.match(index, /Ready to explore the full alpha\?/i);
   assert.doesNotMatch(index, /Open full home page/i);
   assert.doesNotMatch(index, /Go to full home page/i);
@@ -43,7 +42,7 @@ test("public site opens on a video landing page and links to the full alpha home
   assert.match(home, /Test the school-fit workflow in 20 minutes/i);
   assert.match(home, /href="\.\/index\.html"/i);
   assert.match(home, /href="\.\/faq\.html"/i);
-  assert.match(home, /href="\.\/readiness\.html"/i);
+  assert.doesNotMatch(home, /href="\.\/readiness\.html"/i);
   assert.match(home, /Installer downloads resume August 10, 2026/i);
   assert.match(home, /Coming August 10, 2026/i);
   assert.doesNotMatch(home, /SCOPE\.Athlete_0\.1\.11_x64-setup\.exe/i);
@@ -55,20 +54,11 @@ test("public site opens on a video landing page and links to the full alpha home
   assert.match(faq, /Windows Settings, then Apps/i);
   assert.match(faq, /Feedback goes through the linked Google Form/i);
   assert.match(faq, /Installer downloads are paused until August 10, 2026/i);
-  assert.match(faq, /href="\.\/readiness\.html"/i);
+  assert.doesNotMatch(faq, /href="\.\/readiness\.html"/i);
   assert.doesNotMatch(faq, /internal messaging guardrails|guarantees attention from schools/i);
-
-  assert.match(readiness, /Alpha readiness/i);
-  assert.match(readiness, /What gets checked before a reviewer wave/i);
-  assert.match(readiness, /Installer downloads are paused until August 10, 2026/i);
-  assert.match(readiness, /App update check/i);
-  assert.match(readiness, /Data-pack update check/i);
-  assert.match(readiness, /Demo data load\/reset/i);
-  assert.match(readiness, /Decision: Go \/ No-go/i);
-  assert.doesNotMatch(readiness, /Bitwarden|private key|secret|token|internal messaging guardrails/i);
+  assert.doesNotMatch(`${index}\n${home}\n${faq}`, /Alpha readiness|Go \/ No-go|Decision: Go \/ No-go/i);
 
   assert.equal(await exists("docs/assets/videos/01-public-site-download-install.webm"), true);
   assert.equal(await exists("docs/assets/videos/02-app-guided-workflow.webm"), true);
   assert.equal(await exists("docs/faq.html"), true);
-  assert.equal(await exists("docs/readiness.html"), true);
 });
