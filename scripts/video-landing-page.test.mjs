@@ -19,12 +19,14 @@ async function exists(relativePath) {
 test("public site opens on a video landing page and links to the full alpha home", async () => {
   const index = await readPublicFile("docs/index.html");
   const home = await readPublicFile("docs/home.html");
+  const faq = await readPublicFile("docs/faq.html");
 
   assert.match(index, /Demo video center/i);
   assert.match(index, /<video[\s\S]*?<source src="\.\/assets\/videos\/01-public-site-download-install\.webm\?v=openai-20260715-v2" type="video\/webm"/i);
   assert.match(index, /<video[\s\S]*?<source src="\.\/assets\/videos\/02-app-guided-workflow\.webm\?v=openai-20260715-v2" type="video\/webm"/i);
   assert.match(index, /href="\.\/home\.html"/i);
   assert.match(index, /Continue to Alpha Hub/i);
+  assert.match(index, /href="\.\/faq\.html"/i);
   assert.match(index, /Ready to explore the full alpha\?/i);
   assert.doesNotMatch(index, /Open full home page/i);
   assert.doesNotMatch(index, /Go to full home page/i);
@@ -38,11 +40,21 @@ test("public site opens on a video landing page and links to the full alpha home
 
   assert.match(home, /Test the school-fit workflow in 20 minutes/i);
   assert.match(home, /href="\.\/index\.html"/i);
+  assert.match(home, /href="\.\/faq\.html"/i);
   assert.match(home, /Installer downloads resume August 10, 2026/i);
   assert.match(home, /Coming August 10, 2026/i);
   assert.doesNotMatch(home, /SCOPE\.Athlete_0\.1\.11_x64-setup\.exe/i);
   assert.doesNotMatch(home, /SCOPE\.Athlete_0\.1\.11_x64_en-US\.msi/i);
 
+  assert.match(faq, /Private alpha FAQ/i);
+  assert.match(faq, /What is SCOPE Athlete\?/i);
+  assert.match(faq, /synthetic demo data only/i);
+  assert.match(faq, /Windows Settings, then Apps/i);
+  assert.match(faq, /Feedback goes through the linked Google Form/i);
+  assert.match(faq, /Installer downloads are paused until August 10, 2026/i);
+  assert.doesNotMatch(faq, /internal messaging guardrails|guarantees attention from schools/i);
+
   assert.equal(await exists("docs/assets/videos/01-public-site-download-install.webm"), true);
   assert.equal(await exists("docs/assets/videos/02-app-guided-workflow.webm"), true);
+  assert.equal(await exists("docs/faq.html"), true);
 });

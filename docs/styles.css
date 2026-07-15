@@ -757,6 +757,42 @@ h3 {
   line-height: 1.45;
 }
 
+.faq-section {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(35, 79, 112, 0.1), rgba(255, 253, 247, 0.9)),
+    rgba(255, 253, 247, 0.86);
+  padding: clamp(22px, 4vw, 44px);
+  box-shadow: var(--shadow);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.faq-grid article {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  border: 1px solid rgba(207, 199, 183, 0.86);
+  border-radius: 14px;
+  background: rgba(255, 253, 247, 0.82);
+  padding: 18px;
+}
+
+.faq-grid h3 {
+  margin-bottom: 0;
+}
+
+.faq-grid p {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .limits-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -1418,6 +1454,7 @@ h3 {
   .workflow-grid,
   .download-card-grid,
   .video-download-grid,
+  .faq-grid,
   .install-steps,
   .limits-grid,
   .scenario-rail,
