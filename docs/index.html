@@ -107,25 +107,25 @@
           <p class="eyebrow">Downloads</p>
           <h2 id="downloads-title">Download the app or keep the demo videos.</h2>
           <p>
-            Use the EXE for most Windows reviews. The video files are available here too, so you can share the intended walkthrough with a reviewer before they install anything.
+            Installer downloads are temporarily paused while the alpha review window is staged. The video files remain available so you can share the intended walkthrough before anyone installs the app.
           </p>
-          <div class="download-warning" role="note" aria-label="Unsigned alpha install notice">
-            <strong>Install only if you are part of the private alpha.</strong>
-            <span>Windows may show a SmartScreen warning because production code signing is not complete yet.</span>
+          <div class="download-warning paused" role="note" aria-label="Installer download pause notice">
+            <strong>Installer downloads resume August 10, 2026.</strong>
+            <span>The alpha app packages are held until the next review window. Videos, walkthroughs, and feedback remain open.</span>
           </div>
         </div>
         <div class="download-card-grid video-download-grid" aria-label="Alpha download options">
           <article class="download-card preferred">
             <span class="card-index">EXE</span>
             <h3>Setup installer</h3>
-            <p>Recommended for most Windows reviewers.</p>
-            <a class="button primary" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.11/SCOPE.Athlete_0.1.11_x64-setup.exe">Download EXE</a>
+            <p>Recommended for most Windows reviewers once the alpha review window reopens.</p>
+            <button class="button disabled" type="button" disabled aria-describedby="installer-pause-note">Coming August 10, 2026</button>
           </article>
           <article class="download-card">
             <span class="card-index">MSI</span>
             <h3>MSI package</h3>
-            <p>Use this when you specifically prefer Windows Installer format.</p>
-            <a class="button secondary" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.11/SCOPE.Athlete_0.1.11_x64_en-US.msi">Download MSI</a>
+            <p>Windows Installer package for reviewers who specifically prefer MSI format.</p>
+            <button class="button disabled" type="button" disabled aria-describedby="installer-pause-note">Coming August 10, 2026</button>
           </article>
           <article class="download-card">
             <span class="card-index">VID</span>
@@ -142,6 +142,9 @@
             <a class="card-link" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.11/UNSIGNED-ALPHA-NOTICE.md">Unsigned notice</a>
           </article>
         </div>
+        <p class="download-pause-note" id="installer-pause-note">
+          EXE and MSI downloads are paused until August 10, 2026. Check back here when the private alpha review window reopens.
+        </p>
       </section>
 
       <section class="feedback-section" aria-labelledby="continue-title">

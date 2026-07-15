@@ -61,25 +61,25 @@
           <p class="eyebrow">Windows private alpha</p>
           <h2 id="downloads-title">Download the reviewed alpha build.</h2>
           <p>
-            This build is for trusted private-alpha reviewers. The installers are intentionally unsigned, so Windows may show a SmartScreen warning during install.
+            Installer downloads are temporarily paused while the private alpha review window is staged. Walkthroughs and feedback remain available.
           </p>
-          <div class="download-warning" role="note" aria-label="Unsigned alpha install notice">
-            <strong>Install only if you are part of the private alpha.</strong>
-            <span>Use the checksum file to confirm the download before running the installer.</span>
+          <div class="download-warning paused" role="note" aria-label="Installer download pause notice">
+            <strong>Installer downloads resume August 10, 2026.</strong>
+            <span>The app packages are held until the next review window so the alpha does not circulate while unattended.</span>
           </div>
         </div>
         <div class="download-card-grid" aria-label="Alpha download options">
           <article class="download-card preferred">
             <span class="card-index">EXE</span>
             <h3>Setup installer</h3>
-            <p>Recommended for most Windows reviewers.</p>
-            <a class="button primary" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.11/SCOPE.Athlete_0.1.11_x64-setup.exe">Download EXE</a>
+            <p>Recommended for most Windows reviewers once the alpha review window reopens.</p>
+            <button class="button disabled" type="button" disabled aria-describedby="installer-pause-note">Coming August 10, 2026</button>
           </article>
           <article class="download-card">
             <span class="card-index">MSI</span>
             <h3>MSI package</h3>
-            <p>Use this when you specifically prefer Windows Installer format.</p>
-            <a class="button secondary" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.11/SCOPE.Athlete_0.1.11_x64_en-US.msi">Download MSI</a>
+            <p>Windows Installer package for reviewers who specifically prefer MSI format.</p>
+            <button class="button disabled" type="button" disabled aria-describedby="installer-pause-note">Coming August 10, 2026</button>
           </article>
           <article class="download-card">
             <span class="card-index">SHA</span>
@@ -90,11 +90,14 @@
           </article>
         </div>
         <ol class="install-steps" aria-label="Install and uninstall steps">
-          <li><span>01</span><strong>Download the EXE.</strong><p>Use the setup installer unless you specifically need the MSI.</p></li>
-          <li><span>02</span><strong>Review the Windows warning.</strong><p>Select more details only if you expected this unsigned private-alpha build.</p></li>
-          <li><span>03</span><strong>Load demo data.</strong><p>Open Settings in the app and use synthetic demo data for review.</p></li>
-          <li><span>04</span><strong>Uninstall after review.</strong><p>Use Windows Settings -> Apps -> Installed apps -> SCOPE Athlete -> Uninstall.</p></li>
+          <li><span>01</span><strong>Watch the demos.</strong><p>Use the video walkthroughs to preview the review flow before installing.</p></li>
+          <li><span>02</span><strong>Return August 10.</strong><p>The EXE and MSI buttons will reopen for the next private alpha review window.</p></li>
+          <li><span>03</span><strong>Load demo data later.</strong><p>When downloads reopen, use Settings in the app and synthetic demo data for review.</p></li>
+          <li><span>04</span><strong>Send early feedback.</strong><p>The feedback form is still available for website, video, and workflow notes.</p></li>
         </ol>
+        <p class="download-pause-note" id="installer-pause-note">
+          EXE and MSI downloads are paused until August 10, 2026. Check back here when the private alpha review window reopens.
+        </p>
       </section>
 
       <section class="feedback-section" id="feedback" aria-labelledby="feedback-title">

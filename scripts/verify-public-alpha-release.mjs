@@ -23,13 +23,7 @@ export async function verifyPublicAlphaRelease({
   const errors = [];
   const expected = expectedReleaseReferences(version);
 
-  await checkFileContains(errors, repoRoot, "docs/index.html", [
-    expected.tag,
-    expected.exeName,
-    expected.msiName,
-    expected.checksumsUrl,
-    expected.unsignedNoticeUrl
-  ]);
+  await checkPublicSiteInstallerState(errors, repoRoot, expected);
   await checkFileExcludes(errors, repoRoot, "docs/index.html", staleReleasePatterns(version));
   await checkFileContains(errors, repoRoot, "README.md", [expected.releaseUrl]);
 
@@ -98,6 +92,33 @@ async function checkFileContains(errors, repoRoot, relativePath, requiredValues)
   for (const value of requiredValues) {
     if (!content.includes(value)) {
       errors.push(`${relativePath} does not contain expected release reference: ${value}`);
+    }
+  }
+}
+
+async function checkPublicSiteInstallerState(errors, repoRoot, expected) {
+  const content = await readText(errors, repoRoot, "docs/index.html");
+  if (content === undefined) return;
+
+  const installersPaused = content.includes("Installer downloads resume August 10, 2026");
+  await checkFileContains(errors, repoRoot, "docs/index.html", [
+    expected.tag,
+    expected.checksumsUrl,
+    expected.unsignedNoticeUrl
+  ]);
+
+  if (installersPaused) {
+    for (const value of [expected.exeUrl, expected.msiUrl]) {
+      if (content.includes(value)) {
+        errors.push(`docs/index.html still links directly to paused installer URL: ${value}`);
+      }
+    }
+    return;
+  }
+
+  for (const value of [expected.exeName, expected.msiName]) {
+    if (!content.includes(value)) {
+      errors.push(`docs/index.html does not contain expected release reference: ${value}`);
     }
   }
 }

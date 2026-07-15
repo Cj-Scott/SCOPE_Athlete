@@ -51,6 +51,29 @@ test("public alpha verifier accepts matching public release references", async (
   }
 });
 
+test("public alpha verifier accepts intentionally paused installer buttons", async () => {
+  const root = await makeFixture({
+    siteVersion: "0.1.6",
+    updateVersion: "0.1.6",
+    dataPackAppVersion: "0.1.6",
+    installersPaused: true
+  });
+
+  try {
+    const result = await verifyPublicAlphaRelease({
+      repoRoot: root,
+      version: "0.1.6",
+      checkGithubRelease: false,
+      checkLiveSite: false
+    });
+
+    assert.equal(result.ok, true);
+    assert.deepEqual(result.errors, []);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
 test("public alpha verifier does not treat two-digit patch versions as stale one-digit patches", async () => {
   const root = await makeFixture({
     siteVersion: "0.1.10",
@@ -73,13 +96,18 @@ test("public alpha verifier does not treat two-digit patch versions as stale one
   }
 });
 
-async function makeFixture({ siteVersion, updateVersion, dataPackAppVersion }) {
+async function makeFixture({ siteVersion, updateVersion, dataPackAppVersion, installersPaused = false }) {
   const root = await mkdtemp(path.join(os.tmpdir(), "scope-athlete-public-release-"));
   await mkdir(path.join(root, "docs", "app-updates", "windows"), { recursive: true });
   await mkdir(path.join(root, "docs", "data-packs", "latest"), { recursive: true });
 
   await writeFile(path.join(root, "README.md"), `# SCOPE Athlete\n\nhttps://github.com/Cj-Scott/SCOPE_Athlete/releases/tag/alpha-v${siteVersion}\n`);
-  await writeFile(path.join(root, "docs", "index.html"), `
+  await writeFile(path.join(root, "docs", "index.html"), installersPaused ? `
+    <p>Installer downloads resume August 10, 2026.</p>
+    <button disabled>Coming August 10, 2026</button>
+    <a href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v${siteVersion}/SHA256SUMS.txt">Checksums</a>
+    <a href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v${siteVersion}/UNSIGNED-ALPHA-NOTICE.md">Notice</a>
+  ` : `
     <a href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v${siteVersion}/SCOPE.Athlete_${siteVersion}_x64-setup.exe">Download EXE</a>
     <a href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v${siteVersion}/SCOPE.Athlete_${siteVersion}_x64_en-US.msi">Download MSI</a>
     <a href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v${siteVersion}/SHA256SUMS.txt">Checksums</a>

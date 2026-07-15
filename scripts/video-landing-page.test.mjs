@@ -31,11 +31,17 @@ test("public site opens on a video landing page and links to the full alpha home
   assert.match(index, /id="downloads"/i);
   assert.match(index, /01-public-site-download-install\.webm\?v=openai-20260715-v2" download>Download public-site demo/i);
   assert.match(index, /02-app-guided-workflow\.webm\?v=openai-20260715-v2" download>Download app walkthrough/i);
-  assert.match(index, /Download EXE/i);
-  assert.match(index, /Download MSI/i);
+  assert.match(index, /Installer downloads resume August 10, 2026/i);
+  assert.match(index, /Coming August 10, 2026/i);
+  assert.doesNotMatch(index, /SCOPE\.Athlete_0\.1\.11_x64-setup\.exe/i);
+  assert.doesNotMatch(index, /SCOPE\.Athlete_0\.1\.11_x64_en-US\.msi/i);
 
   assert.match(home, /Test the school-fit workflow in 20 minutes/i);
   assert.match(home, /href="\.\/index\.html"/i);
+  assert.match(home, /Installer downloads resume August 10, 2026/i);
+  assert.match(home, /Coming August 10, 2026/i);
+  assert.doesNotMatch(home, /SCOPE\.Athlete_0\.1\.11_x64-setup\.exe/i);
+  assert.doesNotMatch(home, /SCOPE\.Athlete_0\.1\.11_x64_en-US\.msi/i);
 
   assert.equal(await exists("docs/assets/videos/01-public-site-download-install.webm"), true);
   assert.equal(await exists("docs/assets/videos/02-app-guided-workflow.webm"), true);
