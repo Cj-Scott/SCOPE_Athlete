@@ -3,71 +3,110 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SCOPE Athlete Private Alpha</title>
-    <meta name="description" content="Private alpha review hub for SCOPE Athlete demo workflows and structured feedback." />
+    <title>SCOPE Athlete Demo Video Center</title>
+    <meta name="description" content="Watch SCOPE Athlete alpha demo videos, download the private alpha build, and continue to the full reviewer home page." />
     <link rel="icon" href="./assets/favicon.png" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
+  <body class="video-landing">
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="page-texture" aria-hidden="true"></div>
 
     <header class="alpha-shell-header">
-      <a class="brand-lockup" href="#top" aria-label="SCOPE Athlete Private Alpha home">
+      <a class="brand-lockup" href="./index.html" aria-label="SCOPE Athlete demo video center">
         <img src="./assets/favicon.png" alt="" />
         <span>
           <strong>SCOPE Athlete</strong>
           <small>School Comparison &amp; Opportunity Planning Engine</small>
         </span>
       </a>
-      <nav aria-label="Alpha review sections">
-        <a href="#start">Start</a>
+      <nav aria-label="Demo landing sections">
+        <a href="#videos">Videos</a>
         <a href="#downloads">Downloads</a>
-        <a href="#workflows">Workflows</a>
-        <a href="#limits">Limits</a>
-        <a href="#feedback">Feedback</a>
+        <a href="./home.html">Home page</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScRYH-lcCNCXhK4kjWCGD9XIHYNmTmkrWpeJSGXx6BVQUF82w/viewform" target="_blank" rel="noopener">Feedback</a>
       </nav>
     </header>
 
     <main id="main">
-      <section class="hero image-hero" id="top" aria-labelledby="hero-title">
-        <img class="hero-image" src="./assets/hero-planning.png" alt="Parent and athlete reviewing school-fit planning materials at a table" />
-        <div class="hero-scrim" aria-hidden="true"></div>
-        <div class="hero-copy">
-          <p class="eyebrow">Private review build / synthetic demo data</p>
-          <h1 id="hero-title">Test the school-fit workflow in 20 minutes.</h1>
+      <section class="video-hero" id="top" aria-labelledby="video-hero-title">
+        <img class="video-hero-image" src="./assets/hero-planning.png" alt="Parent and student-athlete reviewing college planning notes together" />
+        <div class="video-hero-panel">
+          <p class="eyebrow">Demo video center</p>
+          <h1 id="video-hero-title">Watch the alpha path before you install.</h1>
           <p class="hero-lede">
-            Load the demo, follow one realistic family scenario, and tell us whether the experience feels clear, useful, trustworthy, or confusing.
+            Start with two short walkthroughs: one shows how to download and install the alpha build, and the second shows how a reviewer should move through the app experience.
           </p>
           <p class="scope-definition">
-            <strong>SCOPE</strong> stands for School Comparison &amp; Opportunity Planning Engine: a practical way to organize school fit, opportunity planning, and next actions.
+            <strong>SCOPE</strong> means School Comparison &amp; Opportunity Planning Engine: a planning tool for families trying to help a student-athlete be seen by the right schools.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#start">Start the review</a>
+            <a class="button primary" href="#videos">Watch videos</a>
             <a class="button secondary" href="#downloads">Download alpha</a>
-            <a class="button secondary" href="#feedback">Submit feedback</a>
+            <a class="button secondary" href="./home.html">Go to full home page</a>
           </div>
         </div>
-        <dl class="hero-stats" aria-label="Alpha review summary">
-          <div><dt>Review time</dt><dd>20-30 min</dd></div>
-          <div><dt>Data</dt><dd>Synthetic</dd></div>
-          <div><dt>Feedback</dt><dd>Google Form</dd></div>
-        </dl>
+        <aside class="video-hero-note" aria-label="Recommended review order">
+          <span>01</span>
+          <strong>Watch the install demo.</strong>
+          <span>02</span>
+          <strong>Watch the app walkthrough.</strong>
+          <span>03</span>
+          <strong>Download and review with demo data.</strong>
+        </aside>
+      </section>
+
+      <section class="video-showcase" id="videos" aria-labelledby="videos-title">
+        <div class="section-heading">
+          <p class="eyebrow">Reviewer orientation</p>
+          <h2 id="videos-title">Two videos, one clear starting point.</h2>
+          <p>These are silent/captioned alpha drafts for now. AI narration can be layered in after the flow feels right.</p>
+        </div>
+        <div class="video-grid">
+          <article class="video-card primary-video">
+            <div class="video-frame">
+              <video controls preload="metadata" poster="./assets/hero-planning.png">
+                <source src="./assets/videos/01-public-site-download-install.webm" type="video/webm" />
+                Your browser does not support embedded videos. Use the download link below.
+              </video>
+            </div>
+            <div class="video-card-copy">
+              <span class="card-index">01</span>
+              <h3>Public site, download, and install</h3>
+              <p>Begins on this public site, finds the Windows installer, explains the known unsigned-alpha Windows warning, and points reviewers toward demo data.</p>
+              <a class="card-link" href="./assets/videos/01-public-site-download-install.webm" download>Download public-site demo</a>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-frame">
+              <video controls preload="metadata" poster="./assets/recruiting-toolkit.png">
+                <source src="./assets/videos/02-app-guided-workflow.webm" type="video/webm" />
+                Your browser does not support embedded videos. Use the download link below.
+              </video>
+            </div>
+            <div class="video-card-copy">
+              <span class="card-index">02</span>
+              <h3>Guided app workflow</h3>
+              <p>Shows the intended review path through player profiles, Overview, Pipeline, Tasks, Outreach, Video, Evidence, Settings, and feedback.</p>
+              <a class="card-link" href="./assets/videos/02-app-guided-workflow.webm" download>Download app walkthrough</a>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section class="download-section" id="downloads" aria-labelledby="downloads-title">
         <div class="download-copy">
-          <p class="eyebrow">Windows private alpha</p>
-          <h2 id="downloads-title">Download the reviewed alpha build.</h2>
+          <p class="eyebrow">Downloads</p>
+          <h2 id="downloads-title">Download the app or keep the demo videos.</h2>
           <p>
-            This build is for trusted private-alpha reviewers. The installers are intentionally unsigned, so Windows may show a SmartScreen warning during install.
+            Use the EXE for most Windows reviews. The video files are available here too, so you can share the intended walkthrough with a reviewer before they install anything.
           </p>
           <div class="download-warning" role="note" aria-label="Unsigned alpha install notice">
             <strong>Install only if you are part of the private alpha.</strong>
-            <span>Use the checksum file to confirm the download before running the installer.</span>
+            <span>Windows may show a SmartScreen warning because production code signing is not complete yet.</span>
           </div>
         </div>
-        <div class="download-card-grid" aria-label="Alpha download options">
+        <div class="download-card-grid video-download-grid" aria-label="Alpha download options">
           <article class="download-card preferred">
             <span class="card-index">EXE</span>
             <h3>Setup installer</h3>
@@ -81,161 +120,33 @@
             <a class="button secondary" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.11/SCOPE.Athlete_0.1.11_x64_en-US.msi">Download MSI</a>
           </article>
           <article class="download-card">
+            <span class="card-index">VID</span>
+            <h3>Demo videos</h3>
+            <p>Download both captioned walkthrough drafts for offline review.</p>
+            <a class="card-link" href="./assets/videos/01-public-site-download-install.webm" download>Download public-site demo</a>
+            <a class="card-link" href="./assets/videos/02-app-guided-workflow.webm" download>Download app walkthrough</a>
+          </article>
+          <article class="download-card">
             <span class="card-index">SHA</span>
             <h3>Checksums</h3>
-            <p>Verify downloaded files against the published SHA-256 hashes.</p>
+            <p>Verify downloaded app installers against the published SHA-256 hashes.</p>
             <a class="card-link" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.11/SHA256SUMS.txt">Open checksums</a>
             <a class="card-link" href="https://github.com/Cj-Scott/SCOPE_Athlete/releases/download/alpha-v0.1.11/UNSIGNED-ALPHA-NOTICE.md">Unsigned notice</a>
           </article>
         </div>
-        <ol class="install-steps" aria-label="Install and uninstall steps">
-          <li><span>01</span><strong>Download the EXE.</strong><p>Use the setup installer unless you specifically need the MSI.</p></li>
-          <li><span>02</span><strong>Review the Windows warning.</strong><p>Select more details only if you expected this unsigned private-alpha build.</p></li>
-          <li><span>03</span><strong>Load demo data.</strong><p>Open Settings in the app and use synthetic demo data for review.</p></li>
-          <li><span>04</span><strong>Uninstall after review.</strong><p>Use Windows Settings -> Apps -> Installed apps -> SCOPE Athlete -> Uninstall.</p></li>
-        </ol>
       </section>
 
-      <section class="feedback-section" id="feedback" aria-labelledby="feedback-title">
+      <section class="feedback-section" aria-labelledby="continue-title">
         <div>
-          <p class="eyebrow">Feedback</p>
-          <h2 id="feedback-title">Send structured feedback after your review.</h2>
-          <p>
-            Tell us what you tested, where you got stuck, what broke, and whether this would help a real student-athlete family.
-          </p>
+          <p class="eyebrow">Continue</p>
+          <h2 id="continue-title">Ready for the full reviewer page?</h2>
+          <p>The full home page has the install steps, scenario walkthroughs, suggested demo profiles, private-alpha limits, and feedback checklist.</p>
         </div>
         <div class="feedback-actions">
-          <a class="button primary" id="feedback-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRYH-lcCNCXhK4kjWCGD9XIHYNmTmkrWpeJSGXx6BVQUF82w/viewform" target="_blank" rel="noopener">Open Google Form</a>
-          <button class="button secondary" id="copy-checklist" type="button">Copy review checklist</button>
-          <p id="copy-status" aria-live="polite"></p>
+          <a class="button primary" href="./home.html">Open full home page</a>
+          <a class="button secondary" href="https://docs.google.com/forms/d/e/1FAIpQLScRYH-lcCNCXhK4kjWCGD9XIHYNmTmkrWpeJSGXx6BVQUF82w/viewform" target="_blank" rel="noopener">Open feedback form</a>
         </div>
       </section>
-
-      <section class="section-panel start-grid" id="start" aria-labelledby="start-title">
-        <figure class="section-image-card">
-          <img src="./assets/field-evening.png" alt="College soccer field at evening with stadium lights and campus buildings" />
-          <figcaption>Use the same short demo path for every reviewer.</figcaption>
-        </figure>
-        <div class="start-copy">
-          <p class="eyebrow">Start here</p>
-          <h2 id="start-title">Run the same demo path every reviewer sees.</h2>
-          <ol class="step-list compact">
-            <li><span>01</span><strong>Open the alpha build.</strong></li>
-            <li><span>02</span><strong>Settings -> Load demo data.</strong></li>
-            <li><span>03</span><strong>Choose one family scenario below.</strong></li>
-            <li><span>04</span><strong>Judge the whole journey, then send feedback.</strong></li>
-          </ol>
-        </div>
-      </section>
-
-      <section class="scenario-map" aria-labelledby="scenario-map-title">
-        <div class="section-heading">
-          <p class="eyebrow">How to review</p>
-          <h2 id="scenario-map-title">Review the experience, not just the screens.</h2>
-          <p>Each walkthrough asks you to move through the app like a family would: understand the situation, find the next action, judge whether the supporting evidence is trustworthy, and notice where confidence breaks down.</p>
-        </div>
-        <div class="scenario-rail" aria-label="Scenario review lens">
-          <article>
-            <span>01</span>
-            <strong>Situation</strong>
-            <p>Can you tell which athlete, stage, school, or follow-up problem you are solving?</p>
-          </article>
-          <article>
-            <span>02</span>
-            <strong>Flow</strong>
-            <p>Does the app guide you from overview to the right workspace without hunting?</p>
-          </article>
-          <article>
-            <span>03</span>
-            <strong>Trust</strong>
-            <p>Can you distinguish sourced information, estimates, gaps, and user-entered notes?</p>
-          </article>
-          <article>
-            <span>04</span>
-            <strong>Next action</strong>
-            <p>After the scenario, is the next task or decision obvious enough to act on?</p>
-          </article>
-          <article>
-            <span>05</span>
-            <strong>Fallback path</strong>
-            <p>If you cannot navigate intuitively, use the click-by-click steps in the walkthrough and tell us where you needed them.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="profile-guide" aria-labelledby="profile-guide-title">
-        <div class="section-heading">
-          <p class="eyebrow">Suggested demo profiles</p>
-          <h2 id="profile-guide-title">Use the player that fits the scenario.</h2>
-          <p>The demo includes five synthetic players. Each walkthrough names the best starting profile so reviewers see the intended age stage, workflow maturity, schools, outreach, and tasks.</p>
-        </div>
-        <div class="profile-guide-grid" aria-label="Demo profile suggestions">
-          <article><strong>Lila Hart</strong><span>Early readiness</span><p>Best for first-run or early family orientation.</p></article>
-          <article><strong>Maya Brooks</strong><span>Building shortlist</span><p>Best for parent onboarding and school comparison basics.</p></article>
-          <article><strong>Riley Carter</strong><span>Coach outreach</span><p>Best for active outreach, goalkeeper pathway, and follow-up notes.</p></article>
-          <article><strong>Nia Rivers</strong><span>Application readiness</span><p>Best for compliance timing, ownership gaps, and senior-year tasks.</p></article>
-          <article><strong>Clara Stone</strong><span>Camp follow-up</span><p>Best for video links, camp notes, and public-link review.</p></article>
-        </div>
-      </section>
-
-      <section class="workflow-section" id="workflows" aria-labelledby="workflows-title">
-        <div class="workflow-layout">
-          <div class="section-heading">
-            <p class="eyebrow">Demo workflows</p>
-            <h2 id="workflows-title">Pick one family scenario. Do not test everything.</h2>
-            <p>Short, focused scenario reviews are more useful than long tours. Choose the path closest to your perspective and evaluate whether the full journey makes sense.</p>
-          </div>
-          <figure class="toolkit-card">
-            <img src="./assets/recruiting-toolkit.png" alt="Soccer school-fit toolkit with field diagram notebook, campus map, and planning cards" />
-          </figure>
-          <div class="workflow-grid">
-            <article class="workflow-card">
-              <span class="card-index">A</span>
-              <h3>Parent onboarding</h3>
-              <p>A family opens the tool, loads demo data, and decides whether the first profile and dashboard are safe and understandable.</p>
-              <a class="card-link" href="./workflows/parent-onboarding.html">Open walkthrough</a>
-            </article>
-            <article class="workflow-card featured">
-              <span class="card-index">B</span>
-              <h3>School shortlist review</h3>
-              <p>A family compares school options, checks evidence, and decides whether the recommended next action is trustworthy.</p>
-              <a class="card-link" href="./workflows/school-shortlist.html">Open walkthrough</a>
-            </article>
-            <article class="workflow-card">
-              <span class="card-index">C</span>
-              <h3>Coach follow-up</h3>
-              <p>A family traces one coach follow-up from contact note to video link to task ownership.</p>
-              <a class="card-link" href="./workflows/coach-follow-up.html">Open walkthrough</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="limits-section" id="limits" aria-labelledby="limits-title">
-        <div class="section-heading">
-          <p class="eyebrow">Known limits</p>
-          <h2 id="limits-title">Private alpha boundaries.</h2>
-        </div>
-        <div class="limits-grid">
-          <article>
-            <strong>Private alpha only</strong>
-            <p>Please do not redistribute the installer, screenshots, or claims without checking first.</p>
-          </article>
-          <article>
-            <strong>Synthetic people</strong>
-            <p>Demo players, contacts, outreach notes, and media records are synthetic and not affiliated with schools.</p>
-          </article>
-          <article>
-            <strong>Local-first records</strong>
-            <p>The app stores athlete planning records locally unless a user exports a backup or opens an external link.</p>
-          </article>
-          <article>
-            <strong>Manual triage</strong>
-            <p>Google Form responses are reviewed before bugs, feature ideas, or privacy concerns become GitHub work items.</p>
-          </article>
-        </div>
-      </section>
-
     </main>
 
     <footer class="alpha-footer">
