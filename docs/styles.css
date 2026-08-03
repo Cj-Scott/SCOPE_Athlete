@@ -560,6 +560,39 @@ h3 {
   line-height: 1.6;
 }
 
+.privacy-mini-panel,
+.privacy-at-a-glance,
+.legal-review-note {
+  display: grid;
+  gap: 10px;
+  border: 1px solid rgba(31, 122, 85, 0.28);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 253, 247, 0.94), rgba(236, 232, 222, 0.9)),
+    radial-gradient(circle at 88% 8%, rgba(216, 162, 58, 0.18), transparent 34%);
+  padding: 18px;
+  color: var(--ink);
+}
+
+.privacy-mini-panel {
+  margin-top: 18px;
+  box-shadow: 0 16px 36px rgba(35, 45, 52, 0.08);
+}
+
+.privacy-mini-panel strong,
+.privacy-at-a-glance strong,
+.legal-review-note strong {
+  font-size: 0.98rem;
+  font-weight: 950;
+}
+
+.privacy-mini-panel span,
+.privacy-at-a-glance span {
+  color: #394852;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
 .download-warning {
   display: grid;
   gap: 6px;
@@ -1428,6 +1461,111 @@ h3 {
   gap: 12px;
 }
 
+.legal-page main {
+  gap: clamp(22px, 4vw, 42px);
+}
+
+.legal-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+  gap: clamp(20px, 4vw, 42px);
+  align-items: stretch;
+}
+
+.legal-hero-copy {
+  border: 1px solid rgba(17, 26, 34, 0.12);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, rgba(17, 26, 34, 0.9), rgba(35, 79, 112, 0.82)),
+    url("./assets/field-evening.png") center / cover;
+  padding: clamp(28px, 5vw, 64px);
+  color: #fffdf7;
+  box-shadow: var(--shadow);
+}
+
+.legal-hero-copy .eyebrow,
+.legal-hero-copy .hero-lede {
+  color: #e6f1e9;
+}
+
+.legal-hero-copy h1 {
+  font-size: clamp(2.8rem, 6vw, 6.4rem);
+}
+
+.legal-summary-grid,
+.legal-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.legal-summary-grid article,
+.legal-columns article,
+.legal-section,
+.legal-table {
+  border: 1px solid rgba(17, 26, 34, 0.12);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 247, 0.9);
+  box-shadow: 0 16px 40px rgba(35, 45, 52, 0.08);
+}
+
+.legal-summary-grid article,
+.legal-columns article,
+.legal-section {
+  padding: 22px;
+}
+
+.legal-summary-grid .card-index {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 16px;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(31, 122, 85, 0.14);
+  color: var(--green);
+  font-weight: 950;
+}
+
+.legal-section h2 {
+  font-size: clamp(1.7rem, 3vw, 3rem);
+}
+
+.legal-section p,
+.legal-section li,
+.legal-table span,
+.legal-columns p {
+  color: #394852;
+  line-height: 1.62;
+}
+
+.legal-table {
+  display: grid;
+  overflow: hidden;
+}
+
+.legal-table [role="row"] {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.34fr) minmax(0, 0.66fr);
+  gap: 18px;
+  padding: 16px 18px;
+}
+
+.legal-table [role="row"] + [role="row"] {
+  border-top: 1px solid rgba(17, 26, 34, 0.1);
+}
+
+.legal-table strong {
+  color: var(--blue);
+}
+
+.legal-review-note {
+  border-color: rgba(198, 94, 61, 0.28);
+  background:
+    linear-gradient(135deg, rgba(255, 246, 230, 0.95), rgba(255, 253, 247, 0.92)),
+    radial-gradient(circle at 88% 8%, rgba(198, 94, 61, 0.14), transparent 32%);
+}
+
 .form-blueprint-panel {
   max-width: 980px;
   margin: 0 auto;
@@ -1522,6 +1660,7 @@ h3 {
   .workflow-layout,
   .walkthrough-layout,
   .workflow-cta,
+  .legal-hero,
   .alpha-status-strip,
   .feedback-section {
     grid-template-columns: 1fr;
@@ -1545,6 +1684,8 @@ h3 {
   .scenario-rail,
   .journey-grid,
   .profile-guide-grid,
+  .legal-summary-grid,
+  .legal-columns,
   .video-hero,
   .video-grid {
     grid-template-columns: 1fr;
@@ -1599,6 +1740,11 @@ h3 {
   .click-path-list li::before {
     width: 42px;
     height: 42px;
+  }
+
+  .legal-table [role="row"] {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   .feedback-actions,

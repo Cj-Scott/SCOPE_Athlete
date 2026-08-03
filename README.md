@@ -20,7 +20,12 @@ SCOPE Athlete is meant to make that work clearer. It helps families organize the
 
 SCOPE Athlete is currently in private alpha review with trusted testers. The alpha focuses on workflow clarity, local data behavior, Windows packaging, and whether the tool helps families make a complicated process easier to act on.
 
-Use only synthetic demo data during alpha review. Do not enter real player information, private notes, private school-contact details, or sensitive family information into feedback forms.
+Use only synthetic demo data during alpha review. Do not enter real player information, private notes, private school-contact details, or sensitive family information into feedback forms. Reviewers should also avoid under-13 submissions during alpha.
+
+Public alpha notices:
+
+- [Privacy notice](https://cj-scott.github.io/SCOPE_Athlete/privacy.html)
+- [Alpha terms and disclaimers](https://cj-scott.github.io/SCOPE_Athlete/terms.html)
 
 ## Reviewer Hub
 
@@ -38,7 +43,7 @@ https://github.com/Cj-Scott/SCOPE_Athlete/releases/tag/alpha-v0.1.11
 
 The current alpha installers are intentionally unsigned. Windows may show a SmartScreen warning. Only install them if you are part of the trusted private alpha review group, and verify downloads with the published `SHA256SUMS.txt` file when possible.
 
-For review, download the setup EXE, install SCOPE Athlete, load synthetic demo data from Settings, and uninstall afterward through Windows Settings -> Apps -> Installed apps.
+For review, download the setup EXE, install SCOPE Athlete, load synthetic demo data from Settings, and uninstall afterward through Windows Settings -> Apps -> Installed apps. Feedback is collected through Google Forms and manually reviewed before being converted into product work. The alpha target is to delete or review raw form responses within 90 days.
 
 ## Release Verification
 
